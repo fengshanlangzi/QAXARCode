@@ -1,0 +1,27 @@
+{
+  "name": "QAXQRCode",
+  "version": "0.1.0",
+  "summary": "my QAXQRCode.",
+  "description": "支持横屏扫码",
+  "homepage": "https://github.com/fengshanlangzi/QAXQRCode",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dufangyi": "fangyi890115@163.com"
+  },
+  "source": {
+    "git": "https://github.com/fengshanlangzi/QAXQRCode.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "QAXQRCode/Classes/**/*",
+  "resource_bundles": {
+    "QAXQRCode": [
+      "QAXQRCode/Assets/*"
+    ]
+  }
+}

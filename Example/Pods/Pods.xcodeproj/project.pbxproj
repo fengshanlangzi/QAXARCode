@@ -1,0 +1,1106 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000B5DC82C99190DE61BCDCD8676FDD9 /* SGTorch.h in Headers */ = {isa = PBXBuildFile; fileRef = C7F5039EF8114198AD0DC0959B1350F4 /* SGTorch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		034E657CC0457F593B866E281A18EE4C /* Pods-QAXQRCode_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1E4B6E830B2F37F496CF4E92E6D46 /* Pods-QAXQRCode_Tests-dummy.m */; };
+		077B14234C39671F000A05921D24F91A /* Root.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5925DB9B52CAF60233BA479433203683 /* Root.plist */; };
+		082A5CAC688292F1C54084144E8962BD /* Pods-QAXQRCode_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EF2F45795C379DC6C243864D493EE84 /* Pods-QAXQRCode_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C203BEA16A7489AC0934A32EB8797BE /* SGScanViewConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = 853B7D38A44CC0294B0E536DAC339B0D /* SGScanViewConfigure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D8A0FF5F7A5D6B02DA83C8F4E8B414A /* scan_scanline_wc.png in Resources */ = {isa = PBXBuildFile; fileRef = 4350ACB783038A38E090848EA88D09F9 /* scan_scanline_wc.png */; };
+		1BBA609FF9F85FEF74101C538B079798 /* QAXQRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 554E0F1C506BE200748EF0BB2D17FE74 /* QAXQRCode-dummy.m */; };
+		265B133FA8974901F826B55D04756FC3 /* SGPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB6E77E9BD4A95E5EFCBA791FA6847F /* SGPermission.m */; };
+		2E374E456A4EA36F5DC66F0CA77B1C32 /* scan_scanline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A74F4E597454BFD4F04373A0244138 /* scan_scanline@3x.png */; };
+		2E471EC3CA91AF7D1F476131344D32F2 /* SGScanCode.m in Sources */ = {isa = PBXBuildFile; fileRef = F11043EEE9C0F9DCFE1EF05021ACC16B /* SGScanCode.m */; };
+		2F8291EF459B628BFF446D86D5552FFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		37A1660E1881613308790C3289A468E8 /* Pods-QAXQRCode_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 600C17C764EE0F34ED68DED6D1C85079 /* Pods-QAXQRCode_Example-dummy.m */; };
+		3D64616EB1AA51100411D5C3305164ED /* wc_scan_album@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A090EFD4F62D5697196FB8107FBDE857 /* wc_scan_album@2x.png */; };
+		3EF54616D88C9F10DF2CC45C26758DA3 /* QAXQRCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8051732CF32B9765949C482096ED6A29 /* QAXQRCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		403682A9067A6BBB685440D6E055818D /* SGPermission.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD5F5477BC93233B9BAB34FE0FEACE9 /* SGPermission.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446EACA712D0D142F6F1EA699C6C89E5 /* QAXSpecResoursLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9689C7A01584FDD06551CE6F1DC214AC /* QAXSpecResoursLoader.m */; };
+		499715E69F7CAC5777A27DB44A0CAE53 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A416542F68AF5E43FB7B93386AF4A50A /* en.lproj */; };
+		5F0CFB695C88943D216775A0DC206713 /* QAXSpecResoursLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F46FF593E9642D0DAEECAE19131EC4 /* QAXSpecResoursLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		640542DFCDCBE4E9C24AA83C324B6042 /* QAXQRCodeVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D7E87D58E19133B9C994EF9B4DD2F04 /* QAXQRCodeVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66794BC4BA7BA6C58459D42DB1EFDC5B /* SGWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B6D4F2D155A75377C38954FAA777E4 /* SGWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67CA6F2337A1871B7BD7F0AFC65E26FE /* QAXQRCode-QAXQRCode in Resources */ = {isa = PBXBuildFile; fileRef = ED9541632A2397B31DE15051D1564AAE /* QAXQRCode-QAXQRCode */; };
+		749C1C48C8E6867806F5773AA5945B6D /* SGQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 23072FAE0C8C5CE23200155C133A8305 /* SGQRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79212F2407B8ED0AD0659284888A3982 /* SGGenerateQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C14696A4F26C6141D94F2671DF4813C /* SGGenerateQRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A696A6071D74EA3D66D9456EA94399E /* SGPermissionCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = E6A89045C7BA9347CF22D1692BFC5288 /* SGPermissionCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C3EA8D59BBC1FFEA14EB680E01BE909 /* Pods-QAXQRCode_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF871A4710215CABD024FA4244B2A18 /* Pods-QAXQRCode_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80657FD472923130DA135C7938B15898 /* scan_scanline_wb@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3017D0A034C02BD569F6E5AC2706DF9 /* scan_scanline_wb@3x.png */; };
+		829E1D6D10923FF12FC211919EE03827 /* scan_end_sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7F5430886675B791336CF0202501EFFA /* scan_end_sound.caf */; };
+		8906BDD9424B077DF019E36DF5B7CC2D /* SGScanCode.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB0C589EA53D49BE63C50A99B11B494 /* SGScanCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CB993AF6FF54C74D2906EC3EFAA23D8 /* SGTorch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C8BEB90D72C3FBC812AE068CA9EBD /* SGTorch.m */; };
+		8EF2892D15CBF813DDCB0E1433A5E434 /* SGGenerateQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5DEA3B58796F9405FEA9F86F71BD54 /* SGGenerateQRCode.m */; };
+		928794AAD27C7A80EE8B3F539CB81EE5 /* SGScanView.h in Headers */ = {isa = PBXBuildFile; fileRef = 973C0A9CA8C23F7E2E00AA9A3A4DBEFE /* SGScanView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E7845D45802D8AFD17B0D7A465954D0 /* scan_scanline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81C9954674E4006C447902A3E7985097 /* scan_scanline@2x.png */; };
+		9EDE4A6CF4C5035DAEE86B1581A347F0 /* SGSoundEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 745C2CA1290E20CBDE199C7B73658F30 /* SGSoundEffect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A675A44C55B69EC7D896B9D05D74779D /* scan_scanline_wb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F0724513F87EE46555A8B2FE8EBB03 /* scan_scanline_wb@2x.png */; };
+		A73DC831CE653DD57BAB24509444AAE3 /* SGScanCodeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 182C262EAAB0A5C5F17933F254B9EF81 /* SGScanCodeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B71186D9BDBDDEFE4E2C2C42C9429FBA /* SGWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD29BD6B8A3DD3B5BC63D543430007E /* SGWeakProxy.m */; };
+		B7E909ED9E2795B0FFB2AEE97C227278 /* wc_scan_album@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9530FC875467B511F53C88B0FD9B6A9 /* wc_scan_album@3x.png */; };
+		B966DB72C27087CB70D220B30A849706 /* SGPermissionPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2F1C3DCEA769B4F5B3D8D7A3C24B3B /* SGPermissionPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF92E64E8A4319E2BFE75C169BECC818 /* wc_scan_album.png in Resources */ = {isa = PBXBuildFile; fileRef = 03050F4FEF6E5C9997917E9C96AF011E /* wc_scan_album.png */; };
+		BFFC4866F734886758F422C33FDAF28C /* SGQRCodeLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5065A5AEC087CF7518F4C1E42F06317E /* SGQRCodeLog.m */; };
+		C1239283095C8EEB1430F98516932724 /* scan_scanline_qq.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B756FB4CAA8C4D1042C4CC9E85C81A /* scan_scanline_qq.png */; };
+		C1D620368D489AAAA8A26FAAF2653ADD /* SGSoundEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = C59978153919724FC7057637D968F26D /* SGSoundEffect.m */; };
+		C7EB4D8644AE659F0DFA5C17F91FCD5C /* SGPermissionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08F28E5D2C6D4CB2F65CDA3EB8F593 /* SGPermissionCamera.m */; };
+		CE56CFC4A625000BE53B53937CB3E9E9 /* SGScanViewConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7C8B10D2B0DD73855EF264377E5815 /* SGScanViewConfigure.m */; };
+		E036E8D88B6516225348FFC5A236F9AB /* SGQRCodeLog.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD09C2280041D1F9700D4ECF83D04E3 /* SGQRCodeLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8D043D4C489296A40F2FB86FC13F690 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EAD764108684715B2ABCE0185CFD5B23 /* SGPermissionPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 15721DB735214865BD96A6FA39A3111E /* SGPermissionPhoto.m */; };
+		ED6C67AEB6A605D090311E778DEDCD87 /* SGScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ADBAE8D7832B333C2D2AF7B1554896 /* SGScanView.m */; };
+		FA61ED4C9581BFD9D882BE8753488F74 /* QAXQRCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9C6B374B5C39161D66F559B5A40900 /* QAXQRCodeVC.m */; };
+		FC7949D25DB71EE5BA14A930C81229DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7F2C5792774ED9A01AB99020AF9954C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E2D766154F57A2CA46EDECAD5F3F756;
+			remoteInfo = QAXQRCode;
+		};
+		D315D9902DA4339A5DD0DB3CEF66F3BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9115DF705E98D1B36EFE36CBE7634F8A;
+			remoteInfo = "QAXQRCode-QAXQRCode";
+		};
+		F70F18FBC3D6058372CB6DEC6AD3FC08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D8E9677784DED9ADA61AE6A8E6F5562;
+			remoteInfo = "Pods-QAXQRCode_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029A10CA69D7C697C1AA04549C6E6534 /* QAXQRCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QAXQRCode.release.xcconfig; sourceTree = "<group>"; };
+		03050F4FEF6E5C9997917E9C96AF011E /* wc_scan_album.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = wc_scan_album.png; path = QAXQRCode/Assets/wc_scan_album.png; sourceTree = "<group>"; };
+		04438063AC9F88EC3C4F0E91563D5AA4 /* Pods-QAXQRCode_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QAXQRCode_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0C14696A4F26C6141D94F2671DF4813C /* SGGenerateQRCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGGenerateQRCode.h; sourceTree = "<group>"; };
+		0D7C8B10D2B0DD73855EF264377E5815 /* SGScanViewConfigure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGScanViewConfigure.m; sourceTree = "<group>"; };
+		0EF2620A1D7169BBC8A14E8A2182801B /* Pods-QAXQRCode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QAXQRCode_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0EF2F45795C379DC6C243864D493EE84 /* Pods-QAXQRCode_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QAXQRCode_Example-umbrella.h"; sourceTree = "<group>"; };
+		11DA8953F9D8B8A248EAA3EB91EFD58B /* QAXQRCode.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QAXQRCode.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1477DC7C0736AD0D66D9EC0DCA18C428 /* Pods-QAXQRCode_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QAXQRCode_Example.modulemap"; sourceTree = "<group>"; };
+		15721DB735214865BD96A6FA39A3111E /* SGPermissionPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGPermissionPhoto.m; sourceTree = "<group>"; };
+		171824FAB9E79452010B9BCE5E29DFDF /* QAXQRCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QAXQRCode.modulemap; sourceTree = "<group>"; };
+		182C262EAAB0A5C5F17933F254B9EF81 /* SGScanCodeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGScanCodeDelegate.h; sourceTree = "<group>"; };
+		222E6469655AFCB37D8D06F8F1E0547C /* Pods-QAXQRCode_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QAXQRCode_Tests.modulemap"; sourceTree = "<group>"; };
+		23072FAE0C8C5CE23200155C133A8305 /* SGQRCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGQRCode.h; sourceTree = "<group>"; };
+		2330FA8E897132B061F13364BE266711 /* QAXQRCode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QAXQRCode-Info.plist"; sourceTree = "<group>"; };
+		2DB1E4B6E830B2F37F496CF4E92E6D46 /* Pods-QAXQRCode_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QAXQRCode_Tests-dummy.m"; sourceTree = "<group>"; };
+		36B3252EA4F451AF8A25BB99D6CB6309 /* Pods-QAXQRCode_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QAXQRCode_Example-Info.plist"; sourceTree = "<group>"; };
+		3C5DEA3B58796F9405FEA9F86F71BD54 /* SGGenerateQRCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGGenerateQRCode.m; sourceTree = "<group>"; };
+		3D7E87D58E19133B9C994EF9B4DD2F04 /* QAXQRCodeVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QAXQRCodeVC.h; sourceTree = "<group>"; };
+		4350ACB783038A38E090848EA88D09F9 /* scan_scanline_wc.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = scan_scanline_wc.png; path = QAXQRCode/Assets/scan_scanline_wc.png; sourceTree = "<group>"; };
+		43ADBAE8D7832B333C2D2AF7B1554896 /* SGScanView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGScanView.m; sourceTree = "<group>"; };
+		45BD34533F3A00440FD9E88A0DA92E9D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4F07393711C6AE646A7B360B51A216B3 /* Pods-QAXQRCode_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QAXQRCode_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5065A5AEC087CF7518F4C1E42F06317E /* SGQRCodeLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeLog.m; sourceTree = "<group>"; };
+		554E0F1C506BE200748EF0BB2D17FE74 /* QAXQRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QAXQRCode-dummy.m"; sourceTree = "<group>"; };
+		5925DB9B52CAF60233BA479433203683 /* Root.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Root.plist; path = QAXQRCode/Assets/Root.plist; sourceTree = "<group>"; };
+		5A7E41594931E2FA439A61A2A0151FFA /* Pods-QAXQRCode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QAXQRCode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		600C17C764EE0F34ED68DED6D1C85079 /* Pods-QAXQRCode_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QAXQRCode_Example-dummy.m"; sourceTree = "<group>"; };
+		678F4875DECC0C69AF65EF83BBAB66CD /* QAXQRCode */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QAXQRCode; path = QAXQRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B6D4F2D155A75377C38954FAA777E4 /* SGWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGWeakProxy.h; sourceTree = "<group>"; };
+		6FD5F5477BC93233B9BAB34FE0FEACE9 /* SGPermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGPermission.h; sourceTree = "<group>"; };
+		711342B8D8E171918826515414F53DC4 /* Pods-QAXQRCode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QAXQRCode_Example.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		745C2CA1290E20CBDE199C7B73658F30 /* SGSoundEffect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGSoundEffect.h; sourceTree = "<group>"; };
+		7C0C8BEB90D72C3FBC812AE068CA9EBD /* SGTorch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGTorch.m; sourceTree = "<group>"; };
+		7F5430886675B791336CF0202501EFFA /* scan_end_sound.caf */ = {isa = PBXFileReference; includeInIndex = 1; name = scan_end_sound.caf; path = QAXQRCode/Assets/scan_end_sound.caf; sourceTree = "<group>"; };
+		8051732CF32B9765949C482096ED6A29 /* QAXQRCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QAXQRCode-umbrella.h"; sourceTree = "<group>"; };
+		81C9954674E4006C447902A3E7985097 /* scan_scanline@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan_scanline@2x.png"; path = "QAXQRCode/Assets/scan_scanline@2x.png"; sourceTree = "<group>"; };
+		8453AE048D4EF5875D06563E778E2671 /* Pods-QAXQRCode_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QAXQRCode_Example"; path = Pods_QAXQRCode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		853B7D38A44CC0294B0E536DAC339B0D /* SGScanViewConfigure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGScanViewConfigure.h; sourceTree = "<group>"; };
+		86B756FB4CAA8C4D1042C4CC9E85C81A /* scan_scanline_qq.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = scan_scanline_qq.png; path = QAXQRCode/Assets/scan_scanline_qq.png; sourceTree = "<group>"; };
+		95D47613162ABE15A4CC788D2A1C27F1 /* QAXQRCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QAXQRCode.debug.xcconfig; sourceTree = "<group>"; };
+		9689C7A01584FDD06551CE6F1DC214AC /* QAXSpecResoursLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QAXSpecResoursLoader.m; sourceTree = "<group>"; };
+		973C0A9CA8C23F7E2E00AA9A3A4DBEFE /* SGScanView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGScanView.h; sourceTree = "<group>"; };
+		984F9B0E509E1943A7DAC5CC1CBB986E /* QAXQRCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QAXQRCode-prefix.pch"; sourceTree = "<group>"; };
+		9D512ECD7FB5522476872B33BBE9F6E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A090EFD4F62D5697196FB8107FBDE857 /* wc_scan_album@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "wc_scan_album@2x.png"; path = "QAXQRCode/Assets/wc_scan_album@2x.png"; sourceTree = "<group>"; };
+		A34FBF836A587F3B91B7E01523BA47EF /* Pods-QAXQRCode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QAXQRCode_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A386956A104E9E3333D561608FF03A8B /* Pods-QAXQRCode_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QAXQRCode_Tests"; path = Pods_QAXQRCode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A416542F68AF5E43FB7B93386AF4A50A /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = QAXQRCode/Assets/en.lproj; sourceTree = "<group>"; };
+		AA08F28E5D2C6D4CB2F65CDA3EB8F593 /* SGPermissionCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGPermissionCamera.m; sourceTree = "<group>"; };
+		AE9C6B374B5C39161D66F559B5A40900 /* QAXQRCodeVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QAXQRCodeVC.m; sourceTree = "<group>"; };
+		BBD09C2280041D1F9700D4ECF83D04E3 /* SGQRCodeLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGQRCodeLog.h; sourceTree = "<group>"; };
+		BFF871A4710215CABD024FA4244B2A18 /* Pods-QAXQRCode_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QAXQRCode_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C2F0724513F87EE46555A8B2FE8EBB03 /* scan_scanline_wb@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan_scanline_wb@2x.png"; path = "QAXQRCode/Assets/scan_scanline_wb@2x.png"; sourceTree = "<group>"; };
+		C59978153919724FC7057637D968F26D /* SGSoundEffect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGSoundEffect.m; sourceTree = "<group>"; };
+		C7F5039EF8114198AD0DC0959B1350F4 /* SGTorch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGTorch.h; sourceTree = "<group>"; };
+		C8F46FF593E9642D0DAEECAE19131EC4 /* QAXSpecResoursLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QAXSpecResoursLoader.h; sourceTree = "<group>"; };
+		C9530FC875467B511F53C88B0FD9B6A9 /* wc_scan_album@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "wc_scan_album@3x.png"; path = "QAXQRCode/Assets/wc_scan_album@3x.png"; sourceTree = "<group>"; };
+		D3017D0A034C02BD569F6E5AC2706DF9 /* scan_scanline_wb@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan_scanline_wb@3x.png"; path = "QAXQRCode/Assets/scan_scanline_wb@3x.png"; sourceTree = "<group>"; };
+		DB2F1C3DCEA769B4F5B3D8D7A3C24B3B /* SGPermissionPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGPermissionPhoto.h; sourceTree = "<group>"; };
+		DBB6E77E9BD4A95E5EFCBA791FA6847F /* SGPermission.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGPermission.m; sourceTree = "<group>"; };
+		DE53D7B090A6B4F0ECAD8FE55CE6A8AC /* Pods-QAXQRCode_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QAXQRCode_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DEB0C589EA53D49BE63C50A99B11B494 /* SGScanCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGScanCode.h; sourceTree = "<group>"; };
+		E6A89045C7BA9347CF22D1692BFC5288 /* SGPermissionCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGPermissionCamera.h; sourceTree = "<group>"; };
+		E98D6BC5A824F23AD13E08E0E7E87A1F /* ResourceBundle-QAXQRCode-QAXQRCode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QAXQRCode-QAXQRCode-Info.plist"; sourceTree = "<group>"; };
+		E9A74F4E597454BFD4F04373A0244138 /* scan_scanline@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan_scanline@3x.png"; path = "QAXQRCode/Assets/scan_scanline@3x.png"; sourceTree = "<group>"; };
+		EC3633D3F0E1C38E835EA3141F9D24E0 /* Pods-QAXQRCode_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QAXQRCode_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED9541632A2397B31DE15051D1564AAE /* QAXQRCode-QAXQRCode */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "QAXQRCode-QAXQRCode"; path = QAXQRCode.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11043EEE9C0F9DCFE1EF05021ACC16B /* SGScanCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGScanCode.m; sourceTree = "<group>"; };
+		F3CCED8AD6972D934149048AB5E4AE43 /* Pods-QAXQRCode_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QAXQRCode_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FAD29BD6B8A3DD3B5BC63D543430007E /* SGWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGWeakProxy.m; sourceTree = "<group>"; };
+		FAF2800F38703FC2AA67B97A28ED8A22 /* Pods-QAXQRCode_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QAXQRCode_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CD41FC7E0CE116B2DE999D549FF2D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65362350E2FD2038B6C54D2A6D427188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8291EF459B628BFF446D86D5552FFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7354850EB1FCDA5BAA6C6BA6E3351CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7949D25DB71EE5BA14A930C81229DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964DED1956CA43DC1738F7DF0079EC01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D043D4C489296A40F2FB86FC13F690 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F6C1B4C88B205036BD9394584B7C8DA /* ScanView */ = {
+			isa = PBXGroup;
+			children = (
+				973C0A9CA8C23F7E2E00AA9A3A4DBEFE /* SGScanView.h */,
+				43ADBAE8D7832B333C2D2AF7B1554896 /* SGScanView.m */,
+				853B7D38A44CC0294B0E536DAC339B0D /* SGScanViewConfigure.h */,
+				0D7C8B10D2B0DD73855EF264377E5815 /* SGScanViewConfigure.m */,
+			);
+			name = ScanView;
+			path = QAXQRCode/Classes/ScanView;
+			sourceTree = "<group>";
+		};
+		3070B7F65EE6E257CB5CF7C1FC5FA078 /* Torch */ = {
+			isa = PBXGroup;
+			children = (
+				C7F5039EF8114198AD0DC0959B1350F4 /* SGTorch.h */,
+				7C0C8BEB90D72C3FBC812AE068CA9EBD /* SGTorch.m */,
+			);
+			name = Torch;
+			path = QAXQRCode/Classes/Torch;
+			sourceTree = "<group>";
+		};
+		35DA2876038E04D4946DE2E5B6C0D3EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				171824FAB9E79452010B9BCE5E29DFDF /* QAXQRCode.modulemap */,
+				554E0F1C506BE200748EF0BB2D17FE74 /* QAXQRCode-dummy.m */,
+				2330FA8E897132B061F13364BE266711 /* QAXQRCode-Info.plist */,
+				984F9B0E509E1943A7DAC5CC1CBB986E /* QAXQRCode-prefix.pch */,
+				8051732CF32B9765949C482096ED6A29 /* QAXQRCode-umbrella.h */,
+				95D47613162ABE15A4CC788D2A1C27F1 /* QAXQRCode.debug.xcconfig */,
+				029A10CA69D7C697C1AA04549C6E6534 /* QAXQRCode.release.xcconfig */,
+				E98D6BC5A824F23AD13E08E0E7E87A1F /* ResourceBundle-QAXQRCode-QAXQRCode-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QAXQRCode";
+			sourceTree = "<group>";
+		};
+		4313E1ACCE1F190D6D5B2063553E5601 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC06F4DF4F6DA0A0FBA96D341F80655B /* QAXQRCode */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		59FEE7A379FFF382DF0454796F334F60 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				C8F46FF593E9642D0DAEECAE19131EC4 /* QAXSpecResoursLoader.h */,
+				9689C7A01584FDD06551CE6F1DC214AC /* QAXSpecResoursLoader.m */,
+				23072FAE0C8C5CE23200155C133A8305 /* SGQRCode.h */,
+				BBD09C2280041D1F9700D4ECF83D04E3 /* SGQRCodeLog.h */,
+				5065A5AEC087CF7518F4C1E42F06317E /* SGQRCodeLog.m */,
+			);
+			name = Tool;
+			path = QAXQRCode/Classes/Tool;
+			sourceTree = "<group>";
+		};
+		5FC98BBB4A228EE5EAF6127EE6165084 /* SoundEffect */ = {
+			isa = PBXGroup;
+			children = (
+				745C2CA1290E20CBDE199C7B73658F30 /* SGSoundEffect.h */,
+				C59978153919724FC7057637D968F26D /* SGSoundEffect.m */,
+			);
+			name = SoundEffect;
+			path = QAXQRCode/Classes/SoundEffect;
+			sourceTree = "<group>";
+		};
+		6845ED7627E02E22B8F82DF57657CD8C /* Pods-QAXQRCode_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				222E6469655AFCB37D8D06F8F1E0547C /* Pods-QAXQRCode_Tests.modulemap */,
+				DE53D7B090A6B4F0ECAD8FE55CE6A8AC /* Pods-QAXQRCode_Tests-acknowledgements.markdown */,
+				F3CCED8AD6972D934149048AB5E4AE43 /* Pods-QAXQRCode_Tests-acknowledgements.plist */,
+				2DB1E4B6E830B2F37F496CF4E92E6D46 /* Pods-QAXQRCode_Tests-dummy.m */,
+				FAF2800F38703FC2AA67B97A28ED8A22 /* Pods-QAXQRCode_Tests-Info.plist */,
+				BFF871A4710215CABD024FA4244B2A18 /* Pods-QAXQRCode_Tests-umbrella.h */,
+				5A7E41594931E2FA439A61A2A0151FFA /* Pods-QAXQRCode_Tests.debug.xcconfig */,
+				0EF2620A1D7169BBC8A14E8A2182801B /* Pods-QAXQRCode_Tests.release.xcconfig */,
+			);
+			name = "Pods-QAXQRCode_Tests";
+			path = "Target Support Files/Pods-QAXQRCode_Tests";
+			sourceTree = "<group>";
+		};
+		6A32D3E7D35B1732631E0B67DA33C437 /* Pods-QAXQRCode_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1477DC7C0736AD0D66D9EC0DCA18C428 /* Pods-QAXQRCode_Example.modulemap */,
+				EC3633D3F0E1C38E835EA3141F9D24E0 /* Pods-QAXQRCode_Example-acknowledgements.markdown */,
+				4F07393711C6AE646A7B360B51A216B3 /* Pods-QAXQRCode_Example-acknowledgements.plist */,
+				600C17C764EE0F34ED68DED6D1C85079 /* Pods-QAXQRCode_Example-dummy.m */,
+				04438063AC9F88EC3C4F0E91563D5AA4 /* Pods-QAXQRCode_Example-frameworks.sh */,
+				36B3252EA4F451AF8A25BB99D6CB6309 /* Pods-QAXQRCode_Example-Info.plist */,
+				0EF2F45795C379DC6C243864D493EE84 /* Pods-QAXQRCode_Example-umbrella.h */,
+				A34FBF836A587F3B91B7E01523BA47EF /* Pods-QAXQRCode_Example.debug.xcconfig */,
+				711342B8D8E171918826515414F53DC4 /* Pods-QAXQRCode_Example.release.xcconfig */,
+			);
+			name = "Pods-QAXQRCode_Example";
+			path = "Target Support Files/Pods-QAXQRCode_Example";
+			sourceTree = "<group>";
+		};
+		90665817F1A68B3E9BF65D71FCDAF231 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				45BD34533F3A00440FD9E88A0DA92E9D /* LICENSE */,
+				11DA8953F9D8B8A248EAA3EB91EFD58B /* QAXQRCode.podspec */,
+				9D512ECD7FB5522476872B33BBE9F6E4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B3889410C9376688524269D9E329512C /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				0C14696A4F26C6141D94F2671DF4813C /* SGGenerateQRCode.h */,
+				3C5DEA3B58796F9405FEA9F86F71BD54 /* SGGenerateQRCode.m */,
+				DEB0C589EA53D49BE63C50A99B11B494 /* SGScanCode.h */,
+				F11043EEE9C0F9DCFE1EF05021ACC16B /* SGScanCode.m */,
+				182C262EAAB0A5C5F17933F254B9EF81 /* SGScanCodeDelegate.h */,
+			);
+			name = QRCode;
+			path = QAXQRCode/Classes/QRCode;
+			sourceTree = "<group>";
+		};
+		B3CB08F5FEF86936F5542FCB8AE7211D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A32D3E7D35B1732631E0B67DA33C437 /* Pods-QAXQRCode_Example */,
+				6845ED7627E02E22B8F82DF57657CD8C /* Pods-QAXQRCode_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C4F259FA502480C178DE95D113813728 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8453AE048D4EF5875D06563E778E2671 /* Pods-QAXQRCode_Example */,
+				A386956A104E9E3333D561608FF03A8B /* Pods-QAXQRCode_Tests */,
+				678F4875DECC0C69AF65EF83BBAB66CD /* QAXQRCode */,
+				ED9541632A2397B31DE15051D1564AAE /* QAXQRCode-QAXQRCode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7E9D1C97F6DB82D1FCB262B0E1BB736 /* QAX */ = {
+			isa = PBXGroup;
+			children = (
+				3D7E87D58E19133B9C994EF9B4DD2F04 /* QAXQRCodeVC.h */,
+				AE9C6B374B5C39161D66F559B5A40900 /* QAXQRCodeVC.m */,
+			);
+			name = QAX;
+			path = QAXQRCode/Classes/QAX;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4313E1ACCE1F190D6D5B2063553E5601 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C4F259FA502480C178DE95D113813728 /* Products */,
+				B3CB08F5FEF86936F5542FCB8AE7211D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E42D227D1B0907F7CEEEE0BDC572667C /* WeakProxy */ = {
+			isa = PBXGroup;
+			children = (
+				68B6D4F2D155A75377C38954FAA777E4 /* SGWeakProxy.h */,
+				FAD29BD6B8A3DD3B5BC63D543430007E /* SGWeakProxy.m */,
+			);
+			name = WeakProxy;
+			path = QAXQRCode/Classes/WeakProxy;
+			sourceTree = "<group>";
+		};
+		E96C69594CE705FABA9E9B6BCE49D5BA /* Permission */ = {
+			isa = PBXGroup;
+			children = (
+				6FD5F5477BC93233B9BAB34FE0FEACE9 /* SGPermission.h */,
+				DBB6E77E9BD4A95E5EFCBA791FA6847F /* SGPermission.m */,
+				E6A89045C7BA9347CF22D1692BFC5288 /* SGPermissionCamera.h */,
+				AA08F28E5D2C6D4CB2F65CDA3EB8F593 /* SGPermissionCamera.m */,
+				DB2F1C3DCEA769B4F5B3D8D7A3C24B3B /* SGPermissionPhoto.h */,
+				15721DB735214865BD96A6FA39A3111E /* SGPermissionPhoto.m */,
+			);
+			name = Permission;
+			path = QAXQRCode/Classes/Permission;
+			sourceTree = "<group>";
+		};
+		EC06F4DF4F6DA0A0FBA96D341F80655B /* QAXQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				A416542F68AF5E43FB7B93386AF4A50A /* en.lproj */,
+				5925DB9B52CAF60233BA479433203683 /* Root.plist */,
+				7F5430886675B791336CF0202501EFFA /* scan_end_sound.caf */,
+				81C9954674E4006C447902A3E7985097 /* scan_scanline@2x.png */,
+				E9A74F4E597454BFD4F04373A0244138 /* scan_scanline@3x.png */,
+				86B756FB4CAA8C4D1042C4CC9E85C81A /* scan_scanline_qq.png */,
+				C2F0724513F87EE46555A8B2FE8EBB03 /* scan_scanline_wb@2x.png */,
+				D3017D0A034C02BD569F6E5AC2706DF9 /* scan_scanline_wb@3x.png */,
+				4350ACB783038A38E090848EA88D09F9 /* scan_scanline_wc.png */,
+				03050F4FEF6E5C9997917E9C96AF011E /* wc_scan_album.png */,
+				A090EFD4F62D5697196FB8107FBDE857 /* wc_scan_album@2x.png */,
+				C9530FC875467B511F53C88B0FD9B6A9 /* wc_scan_album@3x.png */,
+				E96C69594CE705FABA9E9B6BCE49D5BA /* Permission */,
+				90665817F1A68B3E9BF65D71FCDAF231 /* Pod */,
+				C7E9D1C97F6DB82D1FCB262B0E1BB736 /* QAX */,
+				B3889410C9376688524269D9E329512C /* QRCode */,
+				0F6C1B4C88B205036BD9394584B7C8DA /* ScanView */,
+				5FC98BBB4A228EE5EAF6127EE6165084 /* SoundEffect */,
+				35DA2876038E04D4946DE2E5B6C0D3EB /* Support Files */,
+				59FEE7A379FFF382DF0454796F334F60 /* Tool */,
+				3070B7F65EE6E257CB5CF7C1FC5FA078 /* Torch */,
+				E42D227D1B0907F7CEEEE0BDC572667C /* WeakProxy */,
+			);
+			name = QAXQRCode;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		86DCF542CDAADF4F95FF86C7D1282059 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C3EA8D59BBC1FFEA14EB680E01BE909 /* Pods-QAXQRCode_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EE1318667978BB923C443477EA556F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082A5CAC688292F1C54084144E8962BD /* Pods-QAXQRCode_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA84FF7FCDBD33A83EFB90A4B5329153 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF54616D88C9F10DF2CC45C26758DA3 /* QAXQRCode-umbrella.h in Headers */,
+				640542DFCDCBE4E9C24AA83C324B6042 /* QAXQRCodeVC.h in Headers */,
+				5F0CFB695C88943D216775A0DC206713 /* QAXSpecResoursLoader.h in Headers */,
+				79212F2407B8ED0AD0659284888A3982 /* SGGenerateQRCode.h in Headers */,
+				403682A9067A6BBB685440D6E055818D /* SGPermission.h in Headers */,
+				7A696A6071D74EA3D66D9456EA94399E /* SGPermissionCamera.h in Headers */,
+				B966DB72C27087CB70D220B30A849706 /* SGPermissionPhoto.h in Headers */,
+				749C1C48C8E6867806F5773AA5945B6D /* SGQRCode.h in Headers */,
+				E036E8D88B6516225348FFC5A236F9AB /* SGQRCodeLog.h in Headers */,
+				8906BDD9424B077DF019E36DF5B7CC2D /* SGScanCode.h in Headers */,
+				A73DC831CE653DD57BAB24509444AAE3 /* SGScanCodeDelegate.h in Headers */,
+				928794AAD27C7A80EE8B3F539CB81EE5 /* SGScanView.h in Headers */,
+				0C203BEA16A7489AC0934A32EB8797BE /* SGScanViewConfigure.h in Headers */,
+				9EDE4A6CF4C5035DAEE86B1581A347F0 /* SGSoundEffect.h in Headers */,
+				000B5DC82C99190DE61BCDCD8676FDD9 /* SGTorch.h in Headers */,
+				66794BC4BA7BA6C58459D42DB1EFDC5B /* SGWeakProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D8E9677784DED9ADA61AE6A8E6F5562 /* Pods-QAXQRCode_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D7D8DCE11E2D80259AED424F11747BE /* Build configuration list for PBXNativeTarget "Pods-QAXQRCode_Example" */;
+			buildPhases = (
+				B2EE1318667978BB923C443477EA556F /* Headers */,
+				F72B1FCB2B520C95F914C5D3FE2FEBEB /* Sources */,
+				964DED1956CA43DC1738F7DF0079EC01 /* Frameworks */,
+				2CFE1E158C322A1EF07C71E9E13EDCCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44AB6874539B87F9A55328E1A112B0A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-QAXQRCode_Example";
+			productName = Pods_QAXQRCode_Example;
+			productReference = 8453AE048D4EF5875D06563E778E2671 /* Pods-QAXQRCode_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		0E2D766154F57A2CA46EDECAD5F3F756 /* QAXQRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0795C21A885D05B67E3E4AF962635BE6 /* Build configuration list for PBXNativeTarget "QAXQRCode" */;
+			buildPhases = (
+				BA84FF7FCDBD33A83EFB90A4B5329153 /* Headers */,
+				A6B3DCDFE5A887400ACA78A85D287A0B /* Sources */,
+				7354850EB1FCDA5BAA6C6BA6E3351CFE /* Frameworks */,
+				6DB83F006CA7C5B642FD3FC59E501670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C626D48053652FA581D0C85E7454792E /* PBXTargetDependency */,
+			);
+			name = QAXQRCode;
+			productName = QAXQRCode;
+			productReference = 678F4875DECC0C69AF65EF83BBAB66CD /* QAXQRCode */;
+			productType = "com.apple.product-type.framework";
+		};
+		9115DF705E98D1B36EFE36CBE7634F8A /* QAXQRCode-QAXQRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36454E87F99EF921B422076447634EC5 /* Build configuration list for PBXNativeTarget "QAXQRCode-QAXQRCode" */;
+			buildPhases = (
+				69F641D2018D034DB36A59F724D18A63 /* Sources */,
+				5CD41FC7E0CE116B2DE999D549FF2D33 /* Frameworks */,
+				8619EB46FA7A2D777E69053981D21383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QAXQRCode-QAXQRCode";
+			productName = QAXQRCode;
+			productReference = ED9541632A2397B31DE15051D1564AAE /* QAXQRCode-QAXQRCode */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F4E4E40678A997BAE833B778A749AE81 /* Pods-QAXQRCode_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA63088D072811730B54BE51B291ABE1 /* Build configuration list for PBXNativeTarget "Pods-QAXQRCode_Tests" */;
+			buildPhases = (
+				86DCF542CDAADF4F95FF86C7D1282059 /* Headers */,
+				D5D2258BAA270B8D6E32D9D295D35E5A /* Sources */,
+				65362350E2FD2038B6C54D2A6D427188 /* Frameworks */,
+				8D3BDC8A2ACCEF4792E79FD4ECDB63DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48ED056B77011236AF5652DD13B325A5 /* PBXTargetDependency */,
+			);
+			name = "Pods-QAXQRCode_Tests";
+			productName = Pods_QAXQRCode_Tests;
+			productReference = A386956A104E9E3333D561608FF03A8B /* Pods-QAXQRCode_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C4F259FA502480C178DE95D113813728 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D8E9677784DED9ADA61AE6A8E6F5562 /* Pods-QAXQRCode_Example */,
+				F4E4E40678A997BAE833B778A749AE81 /* Pods-QAXQRCode_Tests */,
+				0E2D766154F57A2CA46EDECAD5F3F756 /* QAXQRCode */,
+				9115DF705E98D1B36EFE36CBE7634F8A /* QAXQRCode-QAXQRCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CFE1E158C322A1EF07C71E9E13EDCCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB83F006CA7C5B642FD3FC59E501670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67CA6F2337A1871B7BD7F0AFC65E26FE /* QAXQRCode-QAXQRCode in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8619EB46FA7A2D777E69053981D21383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499715E69F7CAC5777A27DB44A0CAE53 /* en.lproj in Resources */,
+				077B14234C39671F000A05921D24F91A /* Root.plist in Resources */,
+				829E1D6D10923FF12FC211919EE03827 /* scan_end_sound.caf in Resources */,
+				9E7845D45802D8AFD17B0D7A465954D0 /* scan_scanline@2x.png in Resources */,
+				2E374E456A4EA36F5DC66F0CA77B1C32 /* scan_scanline@3x.png in Resources */,
+				C1239283095C8EEB1430F98516932724 /* scan_scanline_qq.png in Resources */,
+				A675A44C55B69EC7D896B9D05D74779D /* scan_scanline_wb@2x.png in Resources */,
+				80657FD472923130DA135C7938B15898 /* scan_scanline_wb@3x.png in Resources */,
+				0D8A0FF5F7A5D6B02DA83C8F4E8B414A /* scan_scanline_wc.png in Resources */,
+				BF92E64E8A4319E2BFE75C169BECC818 /* wc_scan_album.png in Resources */,
+				3D64616EB1AA51100411D5C3305164ED /* wc_scan_album@2x.png in Resources */,
+				B7E909ED9E2795B0FFB2AEE97C227278 /* wc_scan_album@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D3BDC8A2ACCEF4792E79FD4ECDB63DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69F641D2018D034DB36A59F724D18A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B3DCDFE5A887400ACA78A85D287A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BBA609FF9F85FEF74101C538B079798 /* QAXQRCode-dummy.m in Sources */,
+				FA61ED4C9581BFD9D882BE8753488F74 /* QAXQRCodeVC.m in Sources */,
+				446EACA712D0D142F6F1EA699C6C89E5 /* QAXSpecResoursLoader.m in Sources */,
+				8EF2892D15CBF813DDCB0E1433A5E434 /* SGGenerateQRCode.m in Sources */,
+				265B133FA8974901F826B55D04756FC3 /* SGPermission.m in Sources */,
+				C7EB4D8644AE659F0DFA5C17F91FCD5C /* SGPermissionCamera.m in Sources */,
+				EAD764108684715B2ABCE0185CFD5B23 /* SGPermissionPhoto.m in Sources */,
+				BFFC4866F734886758F422C33FDAF28C /* SGQRCodeLog.m in Sources */,
+				2E471EC3CA91AF7D1F476131344D32F2 /* SGScanCode.m in Sources */,
+				ED6C67AEB6A605D090311E778DEDCD87 /* SGScanView.m in Sources */,
+				CE56CFC4A625000BE53B53937CB3E9E9 /* SGScanViewConfigure.m in Sources */,
+				C1D620368D489AAAA8A26FAAF2653ADD /* SGSoundEffect.m in Sources */,
+				8CB993AF6FF54C74D2906EC3EFAA23D8 /* SGTorch.m in Sources */,
+				B71186D9BDBDDEFE4E2C2C42C9429FBA /* SGWeakProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D2258BAA270B8D6E32D9D295D35E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034E657CC0457F593B866E281A18EE4C /* Pods-QAXQRCode_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72B1FCB2B520C95F914C5D3FE2FEBEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A1660E1881613308790C3289A468E8 /* Pods-QAXQRCode_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44AB6874539B87F9A55328E1A112B0A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QAXQRCode;
+			target = 0E2D766154F57A2CA46EDECAD5F3F756 /* QAXQRCode */;
+			targetProxy = C7F2C5792774ED9A01AB99020AF9954C /* PBXContainerItemProxy */;
+		};
+		48ED056B77011236AF5652DD13B325A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QAXQRCode_Example";
+			target = 0D8E9677784DED9ADA61AE6A8E6F5562 /* Pods-QAXQRCode_Example */;
+			targetProxy = F70F18FBC3D6058372CB6DEC6AD3FC08 /* PBXContainerItemProxy */;
+		};
+		C626D48053652FA581D0C85E7454792E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "QAXQRCode-QAXQRCode";
+			target = 9115DF705E98D1B36EFE36CBE7634F8A /* QAXQRCode-QAXQRCode */;
+			targetProxy = D315D9902DA4339A5DD0DB3CEF66F3BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		299CB97B333AD64AC5A62108B7D42692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EF2620A1D7169BBC8A14E8A2182801B /* Pods-QAXQRCode_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QAXQRCode_Tests/Pods-QAXQRCode_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QAXQRCode_Tests/Pods-QAXQRCode_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5118B5F66C1974D06DB994AECE23156F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029A10CA69D7C697C1AA04549C6E6534 /* QAXQRCode.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QAXQRCode";
+				IBSC_MODULE = QAXQRCode;
+				INFOPLIST_FILE = "Target Support Files/QAXQRCode/ResourceBundle-QAXQRCode-QAXQRCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = QAXQRCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		51F08EF721FACA9AFD8344EB9D608451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D47613162ABE15A4CC788D2A1C27F1 /* QAXQRCode.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QAXQRCode/QAXQRCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QAXQRCode/QAXQRCode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QAXQRCode/QAXQRCode.modulemap";
+				PRODUCT_MODULE_NAME = QAXQRCode;
+				PRODUCT_NAME = QAXQRCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		990833183C7D4E89659D802D024476A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D47613162ABE15A4CC788D2A1C27F1 /* QAXQRCode.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QAXQRCode";
+				IBSC_MODULE = QAXQRCode;
+				INFOPLIST_FILE = "Target Support Files/QAXQRCode/ResourceBundle-QAXQRCode-QAXQRCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = QAXQRCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		99C6F748638D7632DD30E65A26E764F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711342B8D8E171918826515414F53DC4 /* Pods-QAXQRCode_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QAXQRCode_Example/Pods-QAXQRCode_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QAXQRCode_Example/Pods-QAXQRCode_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD5DEF5ACB8ECD40A3E2D133FA253925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A7E41594931E2FA439A61A2A0151FFA /* Pods-QAXQRCode_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QAXQRCode_Tests/Pods-QAXQRCode_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QAXQRCode_Tests/Pods-QAXQRCode_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EB0C6D164F1C294C89102C9387155EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029A10CA69D7C697C1AA04549C6E6534 /* QAXQRCode.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QAXQRCode/QAXQRCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QAXQRCode/QAXQRCode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QAXQRCode/QAXQRCode.modulemap";
+				PRODUCT_MODULE_NAME = QAXQRCode;
+				PRODUCT_NAME = QAXQRCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE17A88311D11E822C6EF4335BBEC6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A34FBF836A587F3B91B7E01523BA47EF /* Pods-QAXQRCode_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QAXQRCode_Example/Pods-QAXQRCode_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QAXQRCode_Example/Pods-QAXQRCode_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0795C21A885D05B67E3E4AF962635BE6 /* Build configuration list for PBXNativeTarget "QAXQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51F08EF721FACA9AFD8344EB9D608451 /* Debug */,
+				EB0C6D164F1C294C89102C9387155EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36454E87F99EF921B422076447634EC5 /* Build configuration list for PBXNativeTarget "QAXQRCode-QAXQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990833183C7D4E89659D802D024476A3 /* Debug */,
+				5118B5F66C1974D06DB994AECE23156F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D7D8DCE11E2D80259AED424F11747BE /* Build configuration list for PBXNativeTarget "Pods-QAXQRCode_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE17A88311D11E822C6EF4335BBEC6AB /* Debug */,
+				99C6F748638D7632DD30E65A26E764F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA63088D072811730B54BE51B291ABE1 /* Build configuration list for PBXNativeTarget "Pods-QAXQRCode_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5DEF5ACB8ECD40A3E2D133FA253925 /* Debug */,
+				299CB97B333AD64AC5A62108B7D42692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
