@@ -22,7 +22,7 @@ pod 'QAXQRCode'
 
 ## Author
 
-dufangyi, dufangyi@qianxin.com
+dufangyi, fangyi890115@163.com
 
 ## License
 
