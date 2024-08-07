@@ -26,7 +26,7 @@
 }
 
 - (void)configTableView {
-    _dataList = @[@"奇安信"];
+    _dataList = @[@"开始扫码"];
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     _tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
 }
@@ -42,6 +42,15 @@
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
+}
+- (UIViewController *)topViewControler{
+    //获取根控制器
+    UIViewController *root = [UIApplication sharedApplication].keyWindow.rootViewController;
+    UIViewController *parent = root;
+    while ((parent = root.presentedViewController) != nil ) {
+        root = parent;
+    }
+    return root;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -65,6 +74,9 @@
 //                    }
                     VC = [[QAXQRCodeVC alloc] init];
                     [self.navigationController pushViewController:VC animated:YES];
+                    UIViewController *topViewCtrl = [self topViewControler];
+                    [VC didMoveToParentViewController:topViewCtrl];
+
                     
                 } else {
                     NSLog(@"第一次授权失败");
