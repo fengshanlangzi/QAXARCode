@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/fengshanlangzi/QAXQRCode.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  # s.ios.deployment_target = '10.0'
 
   s.source_files = 'QAXQRCode/Classes/**/*'
   
@@ -37,6 +37,10 @@ Pod::Spec.new do |s|
      # 'QAXQRCode' => ['QAXQRCode/Assets/QAXQRCode.bundle']
       'QAXQRCode' => ['QAXQRCode/Assets/*']
   }
+  s.platform = :ios, '9.0'
+
+  # Flutter.framework does not contain a i386 slice.
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
