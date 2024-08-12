@@ -1,5 +1,5 @@
 PODS:
-  - QAXQRCode (0.2.0)
+  - QAXQRCode (0.3.0)
 
 DEPENDENCIES:
   - QAXQRCode (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QAXQRCode: e69f2f6a3de788908518e3e0068a88e7b843d3cb
+  QAXQRCode: a0f947ef24d9b766b5561495d75a2e2e27811512
 
 PODFILE CHECKSUM: 469286b0253d05e6ea78ef5fcf50edfe9d1e0ffa
 

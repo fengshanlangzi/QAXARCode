@@ -1,8 +1,8 @@
 {
   "name": "QAXQRCode",
-  "version": "0.2.0",
-  "summary": "my QAXQRCode.",
-  "description": "支持横屏扫码",
+  "version": "0.3.0",
+  "summary": "支持横屏扫码.",
+  "description": "一个支持iPad/iOS横屏扫码的组件",
   "homepage": "https://github.com/fengshanlangzi/QAXQRCode",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/fengshanlangzi/QAXQRCode.git",
-    "tag": "0.2.0"
+    "tag": "0.3.0"
   },
   "source_files": "QAXQRCode/Classes/**/*",
   "resource_bundles": {

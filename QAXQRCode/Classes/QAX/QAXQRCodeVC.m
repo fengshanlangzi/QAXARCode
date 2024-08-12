@@ -49,6 +49,10 @@
 
     [self configureQRCode];
     
+    UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
+    [self updateSubviewFrame];
+    [scanCode orientChange:orientation];
+    
 }
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];

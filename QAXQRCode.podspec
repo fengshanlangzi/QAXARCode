@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QAXQRCode'
-  s.version          = '0.3.0'
-  s.summary          = '支持横屏扫码.'
+  s.version          = '0.4.0'
+  s.summary          = '支持iOS/iPad横屏扫码.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

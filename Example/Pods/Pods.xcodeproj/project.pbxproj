@@ -7,167 +7,158 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		000B5DC82C99190DE61BCDCD8676FDD9 /* SGTorch.h in Headers */ = {isa = PBXBuildFile; fileRef = C7F5039EF8114198AD0DC0959B1350F4 /* SGTorch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000B5DC82C99190DE61BCDCD8676FDD9 /* SGTorch.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DC348D0B5BBFDF9EBC132E52885036 /* SGTorch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		034E657CC0457F593B866E281A18EE4C /* Pods-QAXQRCode_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1E4B6E830B2F37F496CF4E92E6D46 /* Pods-QAXQRCode_Tests-dummy.m */; };
-		077B14234C39671F000A05921D24F91A /* Root.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5925DB9B52CAF60233BA479433203683 /* Root.plist */; };
 		082A5CAC688292F1C54084144E8962BD /* Pods-QAXQRCode_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EF2F45795C379DC6C243864D493EE84 /* Pods-QAXQRCode_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C203BEA16A7489AC0934A32EB8797BE /* SGScanViewConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = 853B7D38A44CC0294B0E536DAC339B0D /* SGScanViewConfigure.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D8A0FF5F7A5D6B02DA83C8F4E8B414A /* scan_scanline_wc.png in Resources */ = {isa = PBXBuildFile; fileRef = 4350ACB783038A38E090848EA88D09F9 /* scan_scanline_wc.png */; };
-		1BBA609FF9F85FEF74101C538B079798 /* QAXQRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 554E0F1C506BE200748EF0BB2D17FE74 /* QAXQRCode-dummy.m */; };
-		265B133FA8974901F826B55D04756FC3 /* SGPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB6E77E9BD4A95E5EFCBA791FA6847F /* SGPermission.m */; };
-		2E374E456A4EA36F5DC66F0CA77B1C32 /* scan_scanline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A74F4E597454BFD4F04373A0244138 /* scan_scanline@3x.png */; };
-		2E471EC3CA91AF7D1F476131344D32F2 /* SGScanCode.m in Sources */ = {isa = PBXBuildFile; fileRef = F11043EEE9C0F9DCFE1EF05021ACC16B /* SGScanCode.m */; };
+		08FDE70899D7F6B8B87273421C430F06 /* scan_scanline_wb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B632877694D8ECE68B50E10FF98B5E /* scan_scanline_wb@2x.png */; };
+		0C203BEA16A7489AC0934A32EB8797BE /* SGScanViewConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE67CD6A5EA2555B2C77A2ECDDE1C8C /* SGScanViewConfigure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BBA609FF9F85FEF74101C538B079798 /* QAXQRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F68B0167279DCC192253A6539B8F4C /* QAXQRCode-dummy.m */; };
+		265B133FA8974901F826B55D04756FC3 /* SGPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 4552D5C04A8F2ACDC5977B596CB8AE38 /* SGPermission.m */; };
+		2E471EC3CA91AF7D1F476131344D32F2 /* SGScanCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1990D59768B8D7F2E4819019C9D2DF3F /* SGScanCode.m */; };
 		2F8291EF459B628BFF446D86D5552FFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		37A1660E1881613308790C3289A468E8 /* Pods-QAXQRCode_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 600C17C764EE0F34ED68DED6D1C85079 /* Pods-QAXQRCode_Example-dummy.m */; };
-		3D64616EB1AA51100411D5C3305164ED /* wc_scan_album@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A090EFD4F62D5697196FB8107FBDE857 /* wc_scan_album@2x.png */; };
-		3EF54616D88C9F10DF2CC45C26758DA3 /* QAXQRCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8051732CF32B9765949C482096ED6A29 /* QAXQRCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		403682A9067A6BBB685440D6E055818D /* SGPermission.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD5F5477BC93233B9BAB34FE0FEACE9 /* SGPermission.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		446EACA712D0D142F6F1EA699C6C89E5 /* QAXSpecResoursLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9689C7A01584FDD06551CE6F1DC214AC /* QAXSpecResoursLoader.m */; };
-		499715E69F7CAC5777A27DB44A0CAE53 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A416542F68AF5E43FB7B93386AF4A50A /* en.lproj */; };
-		5F0CFB695C88943D216775A0DC206713 /* QAXSpecResoursLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F46FF593E9642D0DAEECAE19131EC4 /* QAXSpecResoursLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		640542DFCDCBE4E9C24AA83C324B6042 /* QAXQRCodeVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D7E87D58E19133B9C994EF9B4DD2F04 /* QAXQRCodeVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66794BC4BA7BA6C58459D42DB1EFDC5B /* SGWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B6D4F2D155A75377C38954FAA777E4 /* SGWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EF54616D88C9F10DF2CC45C26758DA3 /* QAXQRCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F27FF0A17588927C93F95C6BF2A26283 /* QAXQRCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FEE16344CE51AFDBE163EC8346DEE6B /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 96588424A54E0B5CA4B66CE4580CECA5 /* en.lproj */; };
+		403682A9067A6BBB685440D6E055818D /* SGPermission.h in Headers */ = {isa = PBXBuildFile; fileRef = C93386CFF38E1BEF58EC5C221C3A811C /* SGPermission.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446EACA712D0D142F6F1EA699C6C89E5 /* QAXSpecResoursLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B968978EB8F710902622964E2DE9E6A3 /* QAXSpecResoursLoader.m */; };
+		481101410C21A64A8FBA35F19B75F9CB /* arrow_back.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DFAEAA0D28C8F4131F18B9E377ACEE /* arrow_back.png */; };
+		54A77589CCE576A32BBB1DE26DE620CE /* scan_scanline_qq.png in Resources */ = {isa = PBXBuildFile; fileRef = 54B039F9595D7EAF0D5F643678384488 /* scan_scanline_qq.png */; };
+		5A1FE5ED08087F379917B84BA594D878 /* scan_album.png in Resources */ = {isa = PBXBuildFile; fileRef = 544BE1B3C3AB90C167F0835CD93B5AEF /* scan_album.png */; };
+		5F0CFB695C88943D216775A0DC206713 /* QAXSpecResoursLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9795160A823C4C32DB7797EBEE5CE5 /* QAXSpecResoursLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		640542DFCDCBE4E9C24AA83C324B6042 /* QAXQRCodeVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED1B9C578CBAF2D6F475B4A0942DD94 /* QAXQRCodeVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66794BC4BA7BA6C58459D42DB1EFDC5B /* SGWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E9B9577935108613496C1FA2B9CD18 /* SGWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67CA6F2337A1871B7BD7F0AFC65E26FE /* QAXQRCode-QAXQRCode in Resources */ = {isa = PBXBuildFile; fileRef = ED9541632A2397B31DE15051D1564AAE /* QAXQRCode-QAXQRCode */; };
-		749C1C48C8E6867806F5773AA5945B6D /* SGQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 23072FAE0C8C5CE23200155C133A8305 /* SGQRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79212F2407B8ED0AD0659284888A3982 /* SGGenerateQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C14696A4F26C6141D94F2671DF4813C /* SGGenerateQRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A696A6071D74EA3D66D9456EA94399E /* SGPermissionCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = E6A89045C7BA9347CF22D1692BFC5288 /* SGPermissionCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70B17BF3775645E5EDE772FBE5F06358 /* scan_scanline_wb@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E20EFEB7ED4B6AE1EA18EDF8977180D4 /* scan_scanline_wb@3x.png */; };
+		749C1C48C8E6867806F5773AA5945B6D /* SGQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = E73BA401AC158764D450B5DE3A4402FD /* SGQRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79212F2407B8ED0AD0659284888A3982 /* SGGenerateQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 363EE7DC10DEEDA5CC95A52EA2D588DD /* SGGenerateQRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A696A6071D74EA3D66D9456EA94399E /* SGPermissionCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 94066BA481BAAF4C9C01EFE7F81EEF52 /* SGPermissionCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C3EA8D59BBC1FFEA14EB680E01BE909 /* Pods-QAXQRCode_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF871A4710215CABD024FA4244B2A18 /* Pods-QAXQRCode_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80657FD472923130DA135C7938B15898 /* scan_scanline_wb@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3017D0A034C02BD569F6E5AC2706DF9 /* scan_scanline_wb@3x.png */; };
-		829E1D6D10923FF12FC211919EE03827 /* scan_end_sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7F5430886675B791336CF0202501EFFA /* scan_end_sound.caf */; };
-		8906BDD9424B077DF019E36DF5B7CC2D /* SGScanCode.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB0C589EA53D49BE63C50A99B11B494 /* SGScanCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CB993AF6FF54C74D2906EC3EFAA23D8 /* SGTorch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C8BEB90D72C3FBC812AE068CA9EBD /* SGTorch.m */; };
-		8EF2892D15CBF813DDCB0E1433A5E434 /* SGGenerateQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5DEA3B58796F9405FEA9F86F71BD54 /* SGGenerateQRCode.m */; };
-		928794AAD27C7A80EE8B3F539CB81EE5 /* SGScanView.h in Headers */ = {isa = PBXBuildFile; fileRef = 973C0A9CA8C23F7E2E00AA9A3A4DBEFE /* SGScanView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E7845D45802D8AFD17B0D7A465954D0 /* scan_scanline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81C9954674E4006C447902A3E7985097 /* scan_scanline@2x.png */; };
-		9EDE4A6CF4C5035DAEE86B1581A347F0 /* SGSoundEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 745C2CA1290E20CBDE199C7B73658F30 /* SGSoundEffect.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A675A44C55B69EC7D896B9D05D74779D /* scan_scanline_wb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F0724513F87EE46555A8B2FE8EBB03 /* scan_scanline_wb@2x.png */; };
-		A73DC831CE653DD57BAB24509444AAE3 /* SGScanCodeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 182C262EAAB0A5C5F17933F254B9EF81 /* SGScanCodeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B71186D9BDBDDEFE4E2C2C42C9429FBA /* SGWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD29BD6B8A3DD3B5BC63D543430007E /* SGWeakProxy.m */; };
-		B7E909ED9E2795B0FFB2AEE97C227278 /* wc_scan_album@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9530FC875467B511F53C88B0FD9B6A9 /* wc_scan_album@3x.png */; };
-		B966DB72C27087CB70D220B30A849706 /* SGPermissionPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2F1C3DCEA769B4F5B3D8D7A3C24B3B /* SGPermissionPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF92E64E8A4319E2BFE75C169BECC818 /* wc_scan_album.png in Resources */ = {isa = PBXBuildFile; fileRef = 03050F4FEF6E5C9997917E9C96AF011E /* wc_scan_album.png */; };
-		BFFC4866F734886758F422C33FDAF28C /* SGQRCodeLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5065A5AEC087CF7518F4C1E42F06317E /* SGQRCodeLog.m */; };
-		C1239283095C8EEB1430F98516932724 /* scan_scanline_qq.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B756FB4CAA8C4D1042C4CC9E85C81A /* scan_scanline_qq.png */; };
-		C1D620368D489AAAA8A26FAAF2653ADD /* SGSoundEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = C59978153919724FC7057637D968F26D /* SGSoundEffect.m */; };
-		C7EB4D8644AE659F0DFA5C17F91FCD5C /* SGPermissionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08F28E5D2C6D4CB2F65CDA3EB8F593 /* SGPermissionCamera.m */; };
-		CE56CFC4A625000BE53B53937CB3E9E9 /* SGScanViewConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7C8B10D2B0DD73855EF264377E5815 /* SGScanViewConfigure.m */; };
-		E036E8D88B6516225348FFC5A236F9AB /* SGQRCodeLog.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD09C2280041D1F9700D4ECF83D04E3 /* SGQRCodeLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8906BDD9424B077DF019E36DF5B7CC2D /* SGScanCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8467790E14B48CB511F79BE137A40E75 /* SGScanCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		892E242B2CB55FD96CB9CA1003FAC7E5 /* scan_end_sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = B97D6E2B669A1E05CCF051EE566F7EA1 /* scan_end_sound.caf */; };
+		8CB993AF6FF54C74D2906EC3EFAA23D8 /* SGTorch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3442E6D7C30BCAEF1C4AC86CFDC6E982 /* SGTorch.m */; };
+		8EF2892D15CBF813DDCB0E1433A5E434 /* SGGenerateQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 474079F4CA40050636AE0656AA37F070 /* SGGenerateQRCode.m */; };
+		928794AAD27C7A80EE8B3F539CB81EE5 /* SGScanView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EED0084DB1F25174B7AEE31B18DEA69 /* SGScanView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EDE4A6CF4C5035DAEE86B1581A347F0 /* SGSoundEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 37428312CDD8C23577540A513C0D426E /* SGSoundEffect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A73DC831CE653DD57BAB24509444AAE3 /* SGScanCodeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 008DE16272D01B87FFBAA899C4000176 /* SGScanCodeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B71186D9BDBDDEFE4E2C2C42C9429FBA /* SGWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D8523BD5ECC69AA435455E373BBDAE /* SGWeakProxy.m */; };
+		B8B1B9A1ED9E84B83DE094F6CE7E4C96 /* scan_scanline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74F480E544A3244E10C32E3201839967 /* scan_scanline@2x.png */; };
+		B966DB72C27087CB70D220B30A849706 /* SGPermissionPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 323FB91F44DD4C60B4A79F72DECA222A /* SGPermissionPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFFC4866F734886758F422C33FDAF28C /* SGQRCodeLog.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DB4C573199A46D3AF78FB15FA8B16A /* SGQRCodeLog.m */; };
+		C1D620368D489AAAA8A26FAAF2653ADD /* SGSoundEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD65F8860BC08DD3EFFF7F774C182D /* SGSoundEffect.m */; };
+		C7EB4D8644AE659F0DFA5C17F91FCD5C /* SGPermissionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = C84EC4E01963650CD61E13F6AFD2F2E4 /* SGPermissionCamera.m */; };
+		CE56CFC4A625000BE53B53937CB3E9E9 /* SGScanViewConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AE987796F15F8A1EC74F1879477DB6 /* SGScanViewConfigure.m */; };
+		D7A05F34430A863E1B4EE19779CBCD1C /* scan_scanline_wc.png in Resources */ = {isa = PBXBuildFile; fileRef = 029022712D2E3E230A4DBC8040CF163E /* scan_scanline_wc.png */; };
+		E036E8D88B6516225348FFC5A236F9AB /* SGQRCodeLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 60E632C7F32F76CE133988912780F672 /* SGQRCodeLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8D043D4C489296A40F2FB86FC13F690 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		EAD764108684715B2ABCE0185CFD5B23 /* SGPermissionPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 15721DB735214865BD96A6FA39A3111E /* SGPermissionPhoto.m */; };
-		ED6C67AEB6A605D090311E778DEDCD87 /* SGScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ADBAE8D7832B333C2D2AF7B1554896 /* SGScanView.m */; };
-		FA61ED4C9581BFD9D882BE8753488F74 /* QAXQRCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9C6B374B5C39161D66F559B5A40900 /* QAXQRCodeVC.m */; };
+		EAD764108684715B2ABCE0185CFD5B23 /* SGPermissionPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB24C2091364F859FEF7E1580CF38D4 /* SGPermissionPhoto.m */; };
+		ED6C67AEB6A605D090311E778DEDCD87 /* SGScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3C9B3C31D15E360CACD4A05E51144F /* SGScanView.m */; };
+		F330972B800F874E8CAA1BC0050F9719 /* scan_scanline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2488E5CA555928CDAAE30A9C13CFF4A /* scan_scanline@3x.png */; };
+		FA61ED4C9581BFD9D882BE8753488F74 /* QAXQRCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E3F95A4F53A630C4ABABCED81EEB36 /* QAXQRCodeVC.m */; };
+		FAE7A6AA4DB9A671E71FAFE5905A1B8D /* Root.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B3A7BEF69801A8363DFB212A5EAE614 /* Root.plist */; };
 		FC7949D25DB71EE5BA14A930C81229DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C7F2C5792774ED9A01AB99020AF9954C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0E2D766154F57A2CA46EDECAD5F3F756;
-			remoteInfo = QAXQRCode;
-		};
-		D315D9902DA4339A5DD0DB3CEF66F3BA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9115DF705E98D1B36EFE36CBE7634F8A;
-			remoteInfo = "QAXQRCode-QAXQRCode";
-		};
-		F70F18FBC3D6058372CB6DEC6AD3FC08 /* PBXContainerItemProxy */ = {
+		83E55F13921791F999EECCB7F6AFBEC5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0D8E9677784DED9ADA61AE6A8E6F5562;
 			remoteInfo = "Pods-QAXQRCode_Example";
 		};
+		A7C78C1DEE59506F75076A88FB2AD679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E2D766154F57A2CA46EDECAD5F3F756;
+			remoteInfo = QAXQRCode;
+		};
+		AA7936876192742EA2EBA83BE395EA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9115DF705E98D1B36EFE36CBE7634F8A;
+			remoteInfo = "QAXQRCode-QAXQRCode";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		029A10CA69D7C697C1AA04549C6E6534 /* QAXQRCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QAXQRCode.release.xcconfig; sourceTree = "<group>"; };
-		03050F4FEF6E5C9997917E9C96AF011E /* wc_scan_album.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = wc_scan_album.png; path = QAXQRCode/Assets/wc_scan_album.png; sourceTree = "<group>"; };
+		008DE16272D01B87FFBAA899C4000176 /* SGScanCodeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGScanCodeDelegate.h; sourceTree = "<group>"; };
+		029022712D2E3E230A4DBC8040CF163E /* scan_scanline_wc.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = scan_scanline_wc.png; path = QAXQRCode/Assets/scan_scanline_wc.png; sourceTree = "<group>"; };
 		04438063AC9F88EC3C4F0E91563D5AA4 /* Pods-QAXQRCode_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QAXQRCode_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0C14696A4F26C6141D94F2671DF4813C /* SGGenerateQRCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGGenerateQRCode.h; sourceTree = "<group>"; };
-		0D7C8B10D2B0DD73855EF264377E5815 /* SGScanViewConfigure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGScanViewConfigure.m; sourceTree = "<group>"; };
+		0E9795160A823C4C32DB7797EBEE5CE5 /* QAXSpecResoursLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QAXSpecResoursLoader.h; sourceTree = "<group>"; };
 		0EF2620A1D7169BBC8A14E8A2182801B /* Pods-QAXQRCode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QAXQRCode_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0EF2F45795C379DC6C243864D493EE84 /* Pods-QAXQRCode_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QAXQRCode_Example-umbrella.h"; sourceTree = "<group>"; };
-		11DA8953F9D8B8A248EAA3EB91EFD58B /* QAXQRCode.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QAXQRCode.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		10D8523BD5ECC69AA435455E373BBDAE /* SGWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGWeakProxy.m; sourceTree = "<group>"; };
 		1477DC7C0736AD0D66D9EC0DCA18C428 /* Pods-QAXQRCode_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QAXQRCode_Example.modulemap"; sourceTree = "<group>"; };
-		15721DB735214865BD96A6FA39A3111E /* SGPermissionPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGPermissionPhoto.m; sourceTree = "<group>"; };
-		171824FAB9E79452010B9BCE5E29DFDF /* QAXQRCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QAXQRCode.modulemap; sourceTree = "<group>"; };
-		182C262EAAB0A5C5F17933F254B9EF81 /* SGScanCodeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGScanCodeDelegate.h; sourceTree = "<group>"; };
+		1990D59768B8D7F2E4819019C9D2DF3F /* SGScanCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGScanCode.m; sourceTree = "<group>"; };
+		1A3C9B3C31D15E360CACD4A05E51144F /* SGScanView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGScanView.m; sourceTree = "<group>"; };
 		222E6469655AFCB37D8D06F8F1E0547C /* Pods-QAXQRCode_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QAXQRCode_Tests.modulemap"; sourceTree = "<group>"; };
-		23072FAE0C8C5CE23200155C133A8305 /* SGQRCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGQRCode.h; sourceTree = "<group>"; };
-		2330FA8E897132B061F13364BE266711 /* QAXQRCode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QAXQRCode-Info.plist"; sourceTree = "<group>"; };
 		2DB1E4B6E830B2F37F496CF4E92E6D46 /* Pods-QAXQRCode_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QAXQRCode_Tests-dummy.m"; sourceTree = "<group>"; };
+		2ED1B9C578CBAF2D6F475B4A0942DD94 /* QAXQRCodeVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QAXQRCodeVC.h; sourceTree = "<group>"; };
+		323FB91F44DD4C60B4A79F72DECA222A /* SGPermissionPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGPermissionPhoto.h; sourceTree = "<group>"; };
+		3442E6D7C30BCAEF1C4AC86CFDC6E982 /* SGTorch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGTorch.m; sourceTree = "<group>"; };
+		363EE7DC10DEEDA5CC95A52EA2D588DD /* SGGenerateQRCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGGenerateQRCode.h; sourceTree = "<group>"; };
 		36B3252EA4F451AF8A25BB99D6CB6309 /* Pods-QAXQRCode_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QAXQRCode_Example-Info.plist"; sourceTree = "<group>"; };
-		3C5DEA3B58796F9405FEA9F86F71BD54 /* SGGenerateQRCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGGenerateQRCode.m; sourceTree = "<group>"; };
-		3D7E87D58E19133B9C994EF9B4DD2F04 /* QAXQRCodeVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QAXQRCodeVC.h; sourceTree = "<group>"; };
-		4350ACB783038A38E090848EA88D09F9 /* scan_scanline_wc.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = scan_scanline_wc.png; path = QAXQRCode/Assets/scan_scanline_wc.png; sourceTree = "<group>"; };
-		43ADBAE8D7832B333C2D2AF7B1554896 /* SGScanView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGScanView.m; sourceTree = "<group>"; };
-		45BD34533F3A00440FD9E88A0DA92E9D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		36B632877694D8ECE68B50E10FF98B5E /* scan_scanline_wb@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan_scanline_wb@2x.png"; path = "QAXQRCode/Assets/scan_scanline_wb@2x.png"; sourceTree = "<group>"; };
+		36D9D46C57488599DE6B63267CB84EBC /* QAXQRCode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QAXQRCode-Info.plist"; sourceTree = "<group>"; };
+		37428312CDD8C23577540A513C0D426E /* SGSoundEffect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGSoundEffect.h; sourceTree = "<group>"; };
+		442AAB82BA3BF5CF736B9D576CF05993 /* QAXQRCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QAXQRCode.release.xcconfig; sourceTree = "<group>"; };
+		4552D5C04A8F2ACDC5977B596CB8AE38 /* SGPermission.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGPermission.m; sourceTree = "<group>"; };
+		474079F4CA40050636AE0656AA37F070 /* SGGenerateQRCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGGenerateQRCode.m; sourceTree = "<group>"; };
+		48F68B0167279DCC192253A6539B8F4C /* QAXQRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QAXQRCode-dummy.m"; sourceTree = "<group>"; };
 		4F07393711C6AE646A7B360B51A216B3 /* Pods-QAXQRCode_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QAXQRCode_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5065A5AEC087CF7518F4C1E42F06317E /* SGQRCodeLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeLog.m; sourceTree = "<group>"; };
-		554E0F1C506BE200748EF0BB2D17FE74 /* QAXQRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QAXQRCode-dummy.m"; sourceTree = "<group>"; };
-		5925DB9B52CAF60233BA479433203683 /* Root.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Root.plist; path = QAXQRCode/Assets/Root.plist; sourceTree = "<group>"; };
+		51EBA6787643B969A398762931408F35 /* QAXQRCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QAXQRCode.debug.xcconfig; sourceTree = "<group>"; };
+		544BE1B3C3AB90C167F0835CD93B5AEF /* scan_album.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = scan_album.png; path = QAXQRCode/Assets/scan_album.png; sourceTree = "<group>"; };
+		54B039F9595D7EAF0D5F643678384488 /* scan_scanline_qq.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = scan_scanline_qq.png; path = QAXQRCode/Assets/scan_scanline_qq.png; sourceTree = "<group>"; };
 		5A7E41594931E2FA439A61A2A0151FFA /* Pods-QAXQRCode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QAXQRCode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B3A7BEF69801A8363DFB212A5EAE614 /* Root.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Root.plist; path = QAXQRCode/Assets/Root.plist; sourceTree = "<group>"; };
+		5C410A868682E52620CB8A5B7D47BB09 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5DB4CCCF05187BE17AC2B29C7304C283 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5EED0084DB1F25174B7AEE31B18DEA69 /* SGScanView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGScanView.h; sourceTree = "<group>"; };
 		600C17C764EE0F34ED68DED6D1C85079 /* Pods-QAXQRCode_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QAXQRCode_Example-dummy.m"; sourceTree = "<group>"; };
+		60E632C7F32F76CE133988912780F672 /* SGQRCodeLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGQRCodeLog.h; sourceTree = "<group>"; };
 		678F4875DECC0C69AF65EF83BBAB66CD /* QAXQRCode */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QAXQRCode; path = QAXQRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		68B6D4F2D155A75377C38954FAA777E4 /* SGWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGWeakProxy.h; sourceTree = "<group>"; };
-		6FD5F5477BC93233B9BAB34FE0FEACE9 /* SGPermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGPermission.h; sourceTree = "<group>"; };
+		6D1A122F06283358C97BC8D72776586D /* ResourceBundle-QAXQRCode-QAXQRCode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QAXQRCode-QAXQRCode-Info.plist"; sourceTree = "<group>"; };
 		711342B8D8E171918826515414F53DC4 /* Pods-QAXQRCode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QAXQRCode_Example.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		745C2CA1290E20CBDE199C7B73658F30 /* SGSoundEffect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGSoundEffect.h; sourceTree = "<group>"; };
-		7C0C8BEB90D72C3FBC812AE068CA9EBD /* SGTorch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGTorch.m; sourceTree = "<group>"; };
-		7F5430886675B791336CF0202501EFFA /* scan_end_sound.caf */ = {isa = PBXFileReference; includeInIndex = 1; name = scan_end_sound.caf; path = QAXQRCode/Assets/scan_end_sound.caf; sourceTree = "<group>"; };
-		8051732CF32B9765949C482096ED6A29 /* QAXQRCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QAXQRCode-umbrella.h"; sourceTree = "<group>"; };
-		81C9954674E4006C447902A3E7985097 /* scan_scanline@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan_scanline@2x.png"; path = "QAXQRCode/Assets/scan_scanline@2x.png"; sourceTree = "<group>"; };
+		74F480E544A3244E10C32E3201839967 /* scan_scanline@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan_scanline@2x.png"; path = "QAXQRCode/Assets/scan_scanline@2x.png"; sourceTree = "<group>"; };
+		7D95227F05A6FC466898E11F732C3F03 /* QAXQRCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QAXQRCode.modulemap; sourceTree = "<group>"; };
 		8453AE048D4EF5875D06563E778E2671 /* Pods-QAXQRCode_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QAXQRCode_Example"; path = Pods_QAXQRCode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		853B7D38A44CC0294B0E536DAC339B0D /* SGScanViewConfigure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGScanViewConfigure.h; sourceTree = "<group>"; };
-		86B756FB4CAA8C4D1042C4CC9E85C81A /* scan_scanline_qq.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = scan_scanline_qq.png; path = QAXQRCode/Assets/scan_scanline_qq.png; sourceTree = "<group>"; };
-		95D47613162ABE15A4CC788D2A1C27F1 /* QAXQRCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QAXQRCode.debug.xcconfig; sourceTree = "<group>"; };
-		9689C7A01584FDD06551CE6F1DC214AC /* QAXSpecResoursLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QAXSpecResoursLoader.m; sourceTree = "<group>"; };
-		973C0A9CA8C23F7E2E00AA9A3A4DBEFE /* SGScanView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGScanView.h; sourceTree = "<group>"; };
-		984F9B0E509E1943A7DAC5CC1CBB986E /* QAXQRCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QAXQRCode-prefix.pch"; sourceTree = "<group>"; };
-		9D512ECD7FB5522476872B33BBE9F6E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A090EFD4F62D5697196FB8107FBDE857 /* wc_scan_album@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "wc_scan_album@2x.png"; path = "QAXQRCode/Assets/wc_scan_album@2x.png"; sourceTree = "<group>"; };
+		8467790E14B48CB511F79BE137A40E75 /* SGScanCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGScanCode.h; sourceTree = "<group>"; };
+		94066BA481BAAF4C9C01EFE7F81EEF52 /* SGPermissionCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGPermissionCamera.h; sourceTree = "<group>"; };
+		95AE987796F15F8A1EC74F1879477DB6 /* SGScanViewConfigure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGScanViewConfigure.m; sourceTree = "<group>"; };
+		96588424A54E0B5CA4B66CE4580CECA5 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = QAXQRCode/Assets/en.lproj; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1AD65F8860BC08DD3EFFF7F774C182D /* SGSoundEffect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGSoundEffect.m; sourceTree = "<group>"; };
+		A2488E5CA555928CDAAE30A9C13CFF4A /* scan_scanline@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan_scanline@3x.png"; path = "QAXQRCode/Assets/scan_scanline@3x.png"; sourceTree = "<group>"; };
 		A34FBF836A587F3B91B7E01523BA47EF /* Pods-QAXQRCode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QAXQRCode_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A386956A104E9E3333D561608FF03A8B /* Pods-QAXQRCode_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QAXQRCode_Tests"; path = Pods_QAXQRCode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A416542F68AF5E43FB7B93386AF4A50A /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = QAXQRCode/Assets/en.lproj; sourceTree = "<group>"; };
-		AA08F28E5D2C6D4CB2F65CDA3EB8F593 /* SGPermissionCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGPermissionCamera.m; sourceTree = "<group>"; };
-		AE9C6B374B5C39161D66F559B5A40900 /* QAXQRCodeVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QAXQRCodeVC.m; sourceTree = "<group>"; };
-		BBD09C2280041D1F9700D4ECF83D04E3 /* SGQRCodeLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGQRCodeLog.h; sourceTree = "<group>"; };
+		A5DFAEAA0D28C8F4131F18B9E377ACEE /* arrow_back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = arrow_back.png; path = QAXQRCode/Assets/arrow_back.png; sourceTree = "<group>"; };
+		B968978EB8F710902622964E2DE9E6A3 /* QAXSpecResoursLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QAXSpecResoursLoader.m; sourceTree = "<group>"; };
+		B97D6E2B669A1E05CCF051EE566F7EA1 /* scan_end_sound.caf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = scan_end_sound.caf; path = QAXQRCode/Assets/scan_end_sound.caf; sourceTree = "<group>"; };
 		BFF871A4710215CABD024FA4244B2A18 /* Pods-QAXQRCode_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QAXQRCode_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C2F0724513F87EE46555A8B2FE8EBB03 /* scan_scanline_wb@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan_scanline_wb@2x.png"; path = "QAXQRCode/Assets/scan_scanline_wb@2x.png"; sourceTree = "<group>"; };
-		C59978153919724FC7057637D968F26D /* SGSoundEffect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGSoundEffect.m; sourceTree = "<group>"; };
-		C7F5039EF8114198AD0DC0959B1350F4 /* SGTorch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGTorch.h; sourceTree = "<group>"; };
-		C8F46FF593E9642D0DAEECAE19131EC4 /* QAXSpecResoursLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QAXSpecResoursLoader.h; sourceTree = "<group>"; };
-		C9530FC875467B511F53C88B0FD9B6A9 /* wc_scan_album@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "wc_scan_album@3x.png"; path = "QAXQRCode/Assets/wc_scan_album@3x.png"; sourceTree = "<group>"; };
-		D3017D0A034C02BD569F6E5AC2706DF9 /* scan_scanline_wb@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan_scanline_wb@3x.png"; path = "QAXQRCode/Assets/scan_scanline_wb@3x.png"; sourceTree = "<group>"; };
-		DB2F1C3DCEA769B4F5B3D8D7A3C24B3B /* SGPermissionPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGPermissionPhoto.h; sourceTree = "<group>"; };
-		DBB6E77E9BD4A95E5EFCBA791FA6847F /* SGPermission.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGPermission.m; sourceTree = "<group>"; };
+		C0DB4C573199A46D3AF78FB15FA8B16A /* SGQRCodeLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeLog.m; sourceTree = "<group>"; };
+		C84EC4E01963650CD61E13F6AFD2F2E4 /* SGPermissionCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGPermissionCamera.m; sourceTree = "<group>"; };
+		C93386CFF38E1BEF58EC5C221C3A811C /* SGPermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGPermission.h; sourceTree = "<group>"; };
+		CAE67CD6A5EA2555B2C77A2ECDDE1C8C /* SGScanViewConfigure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGScanViewConfigure.h; sourceTree = "<group>"; };
+		CFE76C9BCD2DFB06385993291E927C94 /* QAXQRCode.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QAXQRCode.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		D4DC348D0B5BBFDF9EBC132E52885036 /* SGTorch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGTorch.h; sourceTree = "<group>"; };
+		D4E9B9577935108613496C1FA2B9CD18 /* SGWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGWeakProxy.h; sourceTree = "<group>"; };
 		DE53D7B090A6B4F0ECAD8FE55CE6A8AC /* Pods-QAXQRCode_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QAXQRCode_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DEB0C589EA53D49BE63C50A99B11B494 /* SGScanCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGScanCode.h; sourceTree = "<group>"; };
-		E6A89045C7BA9347CF22D1692BFC5288 /* SGPermissionCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGPermissionCamera.h; sourceTree = "<group>"; };
-		E98D6BC5A824F23AD13E08E0E7E87A1F /* ResourceBundle-QAXQRCode-QAXQRCode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QAXQRCode-QAXQRCode-Info.plist"; sourceTree = "<group>"; };
-		E9A74F4E597454BFD4F04373A0244138 /* scan_scanline@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan_scanline@3x.png"; path = "QAXQRCode/Assets/scan_scanline@3x.png"; sourceTree = "<group>"; };
+		E20EFEB7ED4B6AE1EA18EDF8977180D4 /* scan_scanline_wb@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "scan_scanline_wb@3x.png"; path = "QAXQRCode/Assets/scan_scanline_wb@3x.png"; sourceTree = "<group>"; };
+		E73BA401AC158764D450B5DE3A4402FD /* SGQRCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGQRCode.h; sourceTree = "<group>"; };
+		EBB24C2091364F859FEF7E1580CF38D4 /* SGPermissionPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGPermissionPhoto.m; sourceTree = "<group>"; };
 		EC3633D3F0E1C38E835EA3141F9D24E0 /* Pods-QAXQRCode_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QAXQRCode_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ED9541632A2397B31DE15051D1564AAE /* QAXQRCode-QAXQRCode */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "QAXQRCode-QAXQRCode"; path = QAXQRCode.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		F11043EEE9C0F9DCFE1EF05021ACC16B /* SGScanCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGScanCode.m; sourceTree = "<group>"; };
+		F08112F1960EB2F9197A7A5B438C638B /* QAXQRCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QAXQRCode-prefix.pch"; sourceTree = "<group>"; };
+		F27FF0A17588927C93F95C6BF2A26283 /* QAXQRCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QAXQRCode-umbrella.h"; sourceTree = "<group>"; };
 		F3CCED8AD6972D934149048AB5E4AE43 /* Pods-QAXQRCode_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QAXQRCode_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FAD29BD6B8A3DD3B5BC63D543430007E /* SGWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGWeakProxy.m; sourceTree = "<group>"; };
+		F5E3F95A4F53A630C4ABABCED81EEB36 /* QAXQRCodeVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QAXQRCodeVC.m; sourceTree = "<group>"; };
 		FAF2800F38703FC2AA67B97A28ED8A22 /* Pods-QAXQRCode_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QAXQRCode_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5CD41FC7E0CE116B2DE999D549FF2D33 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		65362350E2FD2038B6C54D2A6D427188 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -192,53 +183,102 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9B57EC605A4E35A97E0B77939C1CC249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F6C1B4C88B205036BD9394584B7C8DA /* ScanView */ = {
+		04391A6B2AFC52BF5793CC5B87D1B228 /* QAXQRCode */ = {
 			isa = PBXGroup;
 			children = (
-				973C0A9CA8C23F7E2E00AA9A3A4DBEFE /* SGScanView.h */,
-				43ADBAE8D7832B333C2D2AF7B1554896 /* SGScanView.m */,
-				853B7D38A44CC0294B0E536DAC339B0D /* SGScanViewConfigure.h */,
-				0D7C8B10D2B0DD73855EF264377E5815 /* SGScanViewConfigure.m */,
+				A5DFAEAA0D28C8F4131F18B9E377ACEE /* arrow_back.png */,
+				96588424A54E0B5CA4B66CE4580CECA5 /* en.lproj */,
+				5B3A7BEF69801A8363DFB212A5EAE614 /* Root.plist */,
+				544BE1B3C3AB90C167F0835CD93B5AEF /* scan_album.png */,
+				B97D6E2B669A1E05CCF051EE566F7EA1 /* scan_end_sound.caf */,
+				74F480E544A3244E10C32E3201839967 /* scan_scanline@2x.png */,
+				A2488E5CA555928CDAAE30A9C13CFF4A /* scan_scanline@3x.png */,
+				54B039F9595D7EAF0D5F643678384488 /* scan_scanline_qq.png */,
+				36B632877694D8ECE68B50E10FF98B5E /* scan_scanline_wb@2x.png */,
+				E20EFEB7ED4B6AE1EA18EDF8977180D4 /* scan_scanline_wb@3x.png */,
+				029022712D2E3E230A4DBC8040CF163E /* scan_scanline_wc.png */,
+				465BE4ADC5EC9F8E024C44F418A0A96D /* Permission */,
+				78A11644BBBA2232709B73945C2554C3 /* Pod */,
+				0BF53999CC478AB2850083A8E54321B4 /* QAX */,
+				6012E62C0927BA08ACFCE336529F613C /* QRCode */,
+				321A651CF3E2253D0BADC6A0A46667B1 /* ScanView */,
+				F2F3BAEE498B3665CC4BBE93839E34D6 /* SoundEffect */,
+				D292FFB2CE02D6D466D21BB763A0DBFB /* Support Files */,
+				4A56873182C767712A6831E4F905F725 /* Tool */,
+				6098EFA61E101807C504EB7CE58ECFBE /* Torch */,
+				3F2F0B0D3B0B13FECF50FC5F87619D70 /* WeakProxy */,
+			);
+			name = QAXQRCode;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0BF53999CC478AB2850083A8E54321B4 /* QAX */ = {
+			isa = PBXGroup;
+			children = (
+				2ED1B9C578CBAF2D6F475B4A0942DD94 /* QAXQRCodeVC.h */,
+				F5E3F95A4F53A630C4ABABCED81EEB36 /* QAXQRCodeVC.m */,
+			);
+			name = QAX;
+			path = QAXQRCode/Classes/QAX;
+			sourceTree = "<group>";
+		};
+		321A651CF3E2253D0BADC6A0A46667B1 /* ScanView */ = {
+			isa = PBXGroup;
+			children = (
+				5EED0084DB1F25174B7AEE31B18DEA69 /* SGScanView.h */,
+				1A3C9B3C31D15E360CACD4A05E51144F /* SGScanView.m */,
+				CAE67CD6A5EA2555B2C77A2ECDDE1C8C /* SGScanViewConfigure.h */,
+				95AE987796F15F8A1EC74F1879477DB6 /* SGScanViewConfigure.m */,
 			);
 			name = ScanView;
 			path = QAXQRCode/Classes/ScanView;
 			sourceTree = "<group>";
 		};
-		3070B7F65EE6E257CB5CF7C1FC5FA078 /* Torch */ = {
+		3F2F0B0D3B0B13FECF50FC5F87619D70 /* WeakProxy */ = {
 			isa = PBXGroup;
 			children = (
-				C7F5039EF8114198AD0DC0959B1350F4 /* SGTorch.h */,
-				7C0C8BEB90D72C3FBC812AE068CA9EBD /* SGTorch.m */,
+				D4E9B9577935108613496C1FA2B9CD18 /* SGWeakProxy.h */,
+				10D8523BD5ECC69AA435455E373BBDAE /* SGWeakProxy.m */,
 			);
-			name = Torch;
-			path = QAXQRCode/Classes/Torch;
+			name = WeakProxy;
+			path = QAXQRCode/Classes/WeakProxy;
 			sourceTree = "<group>";
 		};
-		35DA2876038E04D4946DE2E5B6C0D3EB /* Support Files */ = {
+		465BE4ADC5EC9F8E024C44F418A0A96D /* Permission */ = {
 			isa = PBXGroup;
 			children = (
-				171824FAB9E79452010B9BCE5E29DFDF /* QAXQRCode.modulemap */,
-				554E0F1C506BE200748EF0BB2D17FE74 /* QAXQRCode-dummy.m */,
-				2330FA8E897132B061F13364BE266711 /* QAXQRCode-Info.plist */,
-				984F9B0E509E1943A7DAC5CC1CBB986E /* QAXQRCode-prefix.pch */,
-				8051732CF32B9765949C482096ED6A29 /* QAXQRCode-umbrella.h */,
-				95D47613162ABE15A4CC788D2A1C27F1 /* QAXQRCode.debug.xcconfig */,
-				029A10CA69D7C697C1AA04549C6E6534 /* QAXQRCode.release.xcconfig */,
-				E98D6BC5A824F23AD13E08E0E7E87A1F /* ResourceBundle-QAXQRCode-QAXQRCode-Info.plist */,
+				C93386CFF38E1BEF58EC5C221C3A811C /* SGPermission.h */,
+				4552D5C04A8F2ACDC5977B596CB8AE38 /* SGPermission.m */,
+				94066BA481BAAF4C9C01EFE7F81EEF52 /* SGPermissionCamera.h */,
+				C84EC4E01963650CD61E13F6AFD2F2E4 /* SGPermissionCamera.m */,
+				323FB91F44DD4C60B4A79F72DECA222A /* SGPermissionPhoto.h */,
+				EBB24C2091364F859FEF7E1580CF38D4 /* SGPermissionPhoto.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QAXQRCode";
+			name = Permission;
+			path = QAXQRCode/Classes/Permission;
 			sourceTree = "<group>";
 		};
-		4313E1ACCE1F190D6D5B2063553E5601 /* Development Pods */ = {
+		4A56873182C767712A6831E4F905F725 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				EC06F4DF4F6DA0A0FBA96D341F80655B /* QAXQRCode */,
+				0E9795160A823C4C32DB7797EBEE5CE5 /* QAXSpecResoursLoader.h */,
+				B968978EB8F710902622964E2DE9E6A3 /* QAXSpecResoursLoader.m */,
+				E73BA401AC158764D450B5DE3A4402FD /* SGQRCode.h */,
+				60E632C7F32F76CE133988912780F672 /* SGQRCodeLog.h */,
+				C0DB4C573199A46D3AF78FB15FA8B16A /* SGQRCodeLog.m */,
 			);
-			name = "Development Pods";
+			name = Tool;
+			path = QAXQRCode/Classes/Tool;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -249,27 +289,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		59FEE7A379FFF382DF0454796F334F60 /* Tool */ = {
+		6012E62C0927BA08ACFCE336529F613C /* QRCode */ = {
 			isa = PBXGroup;
 			children = (
-				C8F46FF593E9642D0DAEECAE19131EC4 /* QAXSpecResoursLoader.h */,
-				9689C7A01584FDD06551CE6F1DC214AC /* QAXSpecResoursLoader.m */,
-				23072FAE0C8C5CE23200155C133A8305 /* SGQRCode.h */,
-				BBD09C2280041D1F9700D4ECF83D04E3 /* SGQRCodeLog.h */,
-				5065A5AEC087CF7518F4C1E42F06317E /* SGQRCodeLog.m */,
+				363EE7DC10DEEDA5CC95A52EA2D588DD /* SGGenerateQRCode.h */,
+				474079F4CA40050636AE0656AA37F070 /* SGGenerateQRCode.m */,
+				8467790E14B48CB511F79BE137A40E75 /* SGScanCode.h */,
+				1990D59768B8D7F2E4819019C9D2DF3F /* SGScanCode.m */,
+				008DE16272D01B87FFBAA899C4000176 /* SGScanCodeDelegate.h */,
 			);
-			name = Tool;
-			path = QAXQRCode/Classes/Tool;
+			name = QRCode;
+			path = QAXQRCode/Classes/QRCode;
 			sourceTree = "<group>";
 		};
-		5FC98BBB4A228EE5EAF6127EE6165084 /* SoundEffect */ = {
+		6098EFA61E101807C504EB7CE58ECFBE /* Torch */ = {
 			isa = PBXGroup;
 			children = (
-				745C2CA1290E20CBDE199C7B73658F30 /* SGSoundEffect.h */,
-				C59978153919724FC7057637D968F26D /* SGSoundEffect.m */,
+				D4DC348D0B5BBFDF9EBC132E52885036 /* SGTorch.h */,
+				3442E6D7C30BCAEF1C4AC86CFDC6E982 /* SGTorch.m */,
 			);
-			name = SoundEffect;
-			path = QAXQRCode/Classes/SoundEffect;
+			name = Torch;
+			path = QAXQRCode/Classes/Torch;
 			sourceTree = "<group>";
 		};
 		6845ED7627E02E22B8F82DF57657CD8C /* Pods-QAXQRCode_Tests */ = {
@@ -305,27 +345,22 @@
 			path = "Target Support Files/Pods-QAXQRCode_Example";
 			sourceTree = "<group>";
 		};
-		90665817F1A68B3E9BF65D71FCDAF231 /* Pod */ = {
+		6FA49C3F961FE57109A7001C1C227D5D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				45BD34533F3A00440FD9E88A0DA92E9D /* LICENSE */,
-				11DA8953F9D8B8A248EAA3EB91EFD58B /* QAXQRCode.podspec */,
-				9D512ECD7FB5522476872B33BBE9F6E4 /* README.md */,
+				04391A6B2AFC52BF5793CC5B87D1B228 /* QAXQRCode */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B3889410C9376688524269D9E329512C /* QRCode */ = {
+		78A11644BBBA2232709B73945C2554C3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0C14696A4F26C6141D94F2671DF4813C /* SGGenerateQRCode.h */,
-				3C5DEA3B58796F9405FEA9F86F71BD54 /* SGGenerateQRCode.m */,
-				DEB0C589EA53D49BE63C50A99B11B494 /* SGScanCode.h */,
-				F11043EEE9C0F9DCFE1EF05021ACC16B /* SGScanCode.m */,
-				182C262EAAB0A5C5F17933F254B9EF81 /* SGScanCodeDelegate.h */,
+				5C410A868682E52620CB8A5B7D47BB09 /* LICENSE */,
+				CFE76C9BCD2DFB06385993291E927C94 /* QAXQRCode.podspec */,
+				5DB4CCCF05187BE17AC2B29C7304C283 /* README.md */,
 			);
-			name = QRCode;
-			path = QAXQRCode/Classes/QRCode;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		B3CB08F5FEF86936F5542FCB8AE7211D /* Targets Support Files */ = {
@@ -348,21 +383,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C7E9D1C97F6DB82D1FCB262B0E1BB736 /* QAX */ = {
-			isa = PBXGroup;
-			children = (
-				3D7E87D58E19133B9C994EF9B4DD2F04 /* QAXQRCodeVC.h */,
-				AE9C6B374B5C39161D66F559B5A40900 /* QAXQRCodeVC.m */,
-			);
-			name = QAX;
-			path = QAXQRCode/Classes/QAX;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4313E1ACCE1F190D6D5B2063553E5601 /* Development Pods */,
+				6FA49C3F961FE57109A7001C1C227D5D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				C4F259FA502480C178DE95D113813728 /* Products */,
 				B3CB08F5FEF86936F5542FCB8AE7211D /* Targets Support Files */,
@@ -377,58 +402,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E42D227D1B0907F7CEEEE0BDC572667C /* WeakProxy */ = {
+		D292FFB2CE02D6D466D21BB763A0DBFB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				68B6D4F2D155A75377C38954FAA777E4 /* SGWeakProxy.h */,
-				FAD29BD6B8A3DD3B5BC63D543430007E /* SGWeakProxy.m */,
+				7D95227F05A6FC466898E11F732C3F03 /* QAXQRCode.modulemap */,
+				48F68B0167279DCC192253A6539B8F4C /* QAXQRCode-dummy.m */,
+				36D9D46C57488599DE6B63267CB84EBC /* QAXQRCode-Info.plist */,
+				F08112F1960EB2F9197A7A5B438C638B /* QAXQRCode-prefix.pch */,
+				F27FF0A17588927C93F95C6BF2A26283 /* QAXQRCode-umbrella.h */,
+				51EBA6787643B969A398762931408F35 /* QAXQRCode.debug.xcconfig */,
+				442AAB82BA3BF5CF736B9D576CF05993 /* QAXQRCode.release.xcconfig */,
+				6D1A122F06283358C97BC8D72776586D /* ResourceBundle-QAXQRCode-QAXQRCode-Info.plist */,
 			);
-			name = WeakProxy;
-			path = QAXQRCode/Classes/WeakProxy;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QAXQRCode";
 			sourceTree = "<group>";
 		};
-		E96C69594CE705FABA9E9B6BCE49D5BA /* Permission */ = {
+		F2F3BAEE498B3665CC4BBE93839E34D6 /* SoundEffect */ = {
 			isa = PBXGroup;
 			children = (
-				6FD5F5477BC93233B9BAB34FE0FEACE9 /* SGPermission.h */,
-				DBB6E77E9BD4A95E5EFCBA791FA6847F /* SGPermission.m */,
-				E6A89045C7BA9347CF22D1692BFC5288 /* SGPermissionCamera.h */,
-				AA08F28E5D2C6D4CB2F65CDA3EB8F593 /* SGPermissionCamera.m */,
-				DB2F1C3DCEA769B4F5B3D8D7A3C24B3B /* SGPermissionPhoto.h */,
-				15721DB735214865BD96A6FA39A3111E /* SGPermissionPhoto.m */,
+				37428312CDD8C23577540A513C0D426E /* SGSoundEffect.h */,
+				A1AD65F8860BC08DD3EFFF7F774C182D /* SGSoundEffect.m */,
 			);
-			name = Permission;
-			path = QAXQRCode/Classes/Permission;
-			sourceTree = "<group>";
-		};
-		EC06F4DF4F6DA0A0FBA96D341F80655B /* QAXQRCode */ = {
-			isa = PBXGroup;
-			children = (
-				A416542F68AF5E43FB7B93386AF4A50A /* en.lproj */,
-				5925DB9B52CAF60233BA479433203683 /* Root.plist */,
-				7F5430886675B791336CF0202501EFFA /* scan_end_sound.caf */,
-				81C9954674E4006C447902A3E7985097 /* scan_scanline@2x.png */,
-				E9A74F4E597454BFD4F04373A0244138 /* scan_scanline@3x.png */,
-				86B756FB4CAA8C4D1042C4CC9E85C81A /* scan_scanline_qq.png */,
-				C2F0724513F87EE46555A8B2FE8EBB03 /* scan_scanline_wb@2x.png */,
-				D3017D0A034C02BD569F6E5AC2706DF9 /* scan_scanline_wb@3x.png */,
-				4350ACB783038A38E090848EA88D09F9 /* scan_scanline_wc.png */,
-				03050F4FEF6E5C9997917E9C96AF011E /* wc_scan_album.png */,
-				A090EFD4F62D5697196FB8107FBDE857 /* wc_scan_album@2x.png */,
-				C9530FC875467B511F53C88B0FD9B6A9 /* wc_scan_album@3x.png */,
-				E96C69594CE705FABA9E9B6BCE49D5BA /* Permission */,
-				90665817F1A68B3E9BF65D71FCDAF231 /* Pod */,
-				C7E9D1C97F6DB82D1FCB262B0E1BB736 /* QAX */,
-				B3889410C9376688524269D9E329512C /* QRCode */,
-				0F6C1B4C88B205036BD9394584B7C8DA /* ScanView */,
-				5FC98BBB4A228EE5EAF6127EE6165084 /* SoundEffect */,
-				35DA2876038E04D4946DE2E5B6C0D3EB /* Support Files */,
-				59FEE7A379FFF382DF0454796F334F60 /* Tool */,
-				3070B7F65EE6E257CB5CF7C1FC5FA078 /* Torch */,
-				E42D227D1B0907F7CEEEE0BDC572667C /* WeakProxy */,
-			);
-			name = QAXQRCode;
-			path = ../..;
+			name = SoundEffect;
+			path = QAXQRCode/Classes/SoundEffect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -488,7 +485,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				44AB6874539B87F9A55328E1A112B0A8 /* PBXTargetDependency */,
+				AEC1C52E0E4A40DAC4485B330F320739 /* PBXTargetDependency */,
 			);
 			name = "Pods-QAXQRCode_Example";
 			productName = Pods_QAXQRCode_Example;
@@ -507,7 +504,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C626D48053652FA581D0C85E7454792E /* PBXTargetDependency */,
+				C22F6F78F0C43CE4EBAA736B1DE41930 /* PBXTargetDependency */,
 			);
 			name = QAXQRCode;
 			productName = QAXQRCode;
@@ -516,11 +513,11 @@
 		};
 		9115DF705E98D1B36EFE36CBE7634F8A /* QAXQRCode-QAXQRCode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36454E87F99EF921B422076447634EC5 /* Build configuration list for PBXNativeTarget "QAXQRCode-QAXQRCode" */;
+			buildConfigurationList = 6FEECC41CD5E3D4A6DFAF38F1CCDBA64 /* Build configuration list for PBXNativeTarget "QAXQRCode-QAXQRCode" */;
 			buildPhases = (
-				69F641D2018D034DB36A59F724D18A63 /* Sources */,
-				5CD41FC7E0CE116B2DE999D549FF2D33 /* Frameworks */,
-				8619EB46FA7A2D777E69053981D21383 /* Resources */,
+				A36EEFAAADD75020C80F75778C8519F5 /* Sources */,
+				9B57EC605A4E35A97E0B77939C1CC249 /* Frameworks */,
+				4D28DCC004DD152262011DAC1EF5B77C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -543,7 +540,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				48ED056B77011236AF5652DD13B325A5 /* PBXTargetDependency */,
+				C8866130242E2A169E08F485CB271A0D /* PBXTargetDependency */,
 			);
 			name = "Pods-QAXQRCode_Tests";
 			productName = Pods_QAXQRCode_Tests;
@@ -588,30 +585,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D28DCC004DD152262011DAC1EF5B77C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481101410C21A64A8FBA35F19B75F9CB /* arrow_back.png in Resources */,
+				3FEE16344CE51AFDBE163EC8346DEE6B /* en.lproj in Resources */,
+				FAE7A6AA4DB9A671E71FAFE5905A1B8D /* Root.plist in Resources */,
+				5A1FE5ED08087F379917B84BA594D878 /* scan_album.png in Resources */,
+				892E242B2CB55FD96CB9CA1003FAC7E5 /* scan_end_sound.caf in Resources */,
+				B8B1B9A1ED9E84B83DE094F6CE7E4C96 /* scan_scanline@2x.png in Resources */,
+				F330972B800F874E8CAA1BC0050F9719 /* scan_scanline@3x.png in Resources */,
+				54A77589CCE576A32BBB1DE26DE620CE /* scan_scanline_qq.png in Resources */,
+				08FDE70899D7F6B8B87273421C430F06 /* scan_scanline_wb@2x.png in Resources */,
+				70B17BF3775645E5EDE772FBE5F06358 /* scan_scanline_wb@3x.png in Resources */,
+				D7A05F34430A863E1B4EE19779CBCD1C /* scan_scanline_wc.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DB83F006CA7C5B642FD3FC59E501670 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				67CA6F2337A1871B7BD7F0AFC65E26FE /* QAXQRCode-QAXQRCode in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8619EB46FA7A2D777E69053981D21383 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				499715E69F7CAC5777A27DB44A0CAE53 /* en.lproj in Resources */,
-				077B14234C39671F000A05921D24F91A /* Root.plist in Resources */,
-				829E1D6D10923FF12FC211919EE03827 /* scan_end_sound.caf in Resources */,
-				9E7845D45802D8AFD17B0D7A465954D0 /* scan_scanline@2x.png in Resources */,
-				2E374E456A4EA36F5DC66F0CA77B1C32 /* scan_scanline@3x.png in Resources */,
-				C1239283095C8EEB1430F98516932724 /* scan_scanline_qq.png in Resources */,
-				A675A44C55B69EC7D896B9D05D74779D /* scan_scanline_wb@2x.png in Resources */,
-				80657FD472923130DA135C7938B15898 /* scan_scanline_wb@3x.png in Resources */,
-				0D8A0FF5F7A5D6B02DA83C8F4E8B414A /* scan_scanline_wc.png in Resources */,
-				BF92E64E8A4319E2BFE75C169BECC818 /* wc_scan_album.png in Resources */,
-				3D64616EB1AA51100411D5C3305164ED /* wc_scan_album@2x.png in Resources */,
-				B7E909ED9E2795B0FFB2AEE97C227278 /* wc_scan_album@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,7 +621,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		69F641D2018D034DB36A59F724D18A63 /* Sources */ = {
+		A36EEFAAADD75020C80F75778C8519F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -672,30 +668,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		44AB6874539B87F9A55328E1A112B0A8 /* PBXTargetDependency */ = {
+		AEC1C52E0E4A40DAC4485B330F320739 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QAXQRCode;
 			target = 0E2D766154F57A2CA46EDECAD5F3F756 /* QAXQRCode */;
-			targetProxy = C7F2C5792774ED9A01AB99020AF9954C /* PBXContainerItemProxy */;
+			targetProxy = A7C78C1DEE59506F75076A88FB2AD679 /* PBXContainerItemProxy */;
 		};
-		48ED056B77011236AF5652DD13B325A5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-QAXQRCode_Example";
-			target = 0D8E9677784DED9ADA61AE6A8E6F5562 /* Pods-QAXQRCode_Example */;
-			targetProxy = F70F18FBC3D6058372CB6DEC6AD3FC08 /* PBXContainerItemProxy */;
-		};
-		C626D48053652FA581D0C85E7454792E /* PBXTargetDependency */ = {
+		C22F6F78F0C43CE4EBAA736B1DE41930 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "QAXQRCode-QAXQRCode";
 			target = 9115DF705E98D1B36EFE36CBE7634F8A /* QAXQRCode-QAXQRCode */;
-			targetProxy = D315D9902DA4339A5DD0DB3CEF66F3BA /* PBXContainerItemProxy */;
+			targetProxy = AA7936876192742EA2EBA83BE395EA40 /* PBXContainerItemProxy */;
+		};
+		C8866130242E2A169E08F485CB271A0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QAXQRCode_Example";
+			target = 0D8E9677784DED9ADA61AE6A8E6F5562 /* Pods-QAXQRCode_Example */;
+			targetProxy = 83E55F13921791F999EECCB7F6AFBEC5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0486E6298EDE8628F354A3CDD726A5BD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 029A10CA69D7C697C1AA04549C6E6534 /* QAXQRCode.release.xcconfig */;
+			baseConfigurationReference = 442AAB82BA3BF5CF736B9D576CF05993 /* QAXQRCode.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -757,40 +753,6 @@
 			};
 			name = Release;
 		};
-		428BB354A22EE878F5ED618E7B3D36ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 029A10CA69D7C697C1AA04549C6E6534 /* QAXQRCode.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QAXQRCode";
-				IBSC_MODULE = QAXQRCode;
-				INFOPLIST_FILE = "Target Support Files/QAXQRCode/ResourceBundle-QAXQRCode-QAXQRCode-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = QAXQRCode;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		59F1F64E3F5496A58031C931EE8B16E6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95D47613162ABE15A4CC788D2A1C27F1 /* QAXQRCode.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QAXQRCode";
-				IBSC_MODULE = QAXQRCode;
-				INFOPLIST_FILE = "Target Support Files/QAXQRCode/ResourceBundle-QAXQRCode-QAXQRCode-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = QAXQRCode;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -846,10 +808,26 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		88A44C929EEBE6AAFB39BC1B421BC795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 442AAB82BA3BF5CF736B9D576CF05993 /* QAXQRCode.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QAXQRCode";
+				IBSC_MODULE = QAXQRCode;
+				INFOPLIST_FILE = "Target Support Files/QAXQRCode/ResourceBundle-QAXQRCode-QAXQRCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = QAXQRCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -986,9 +964,26 @@
 			};
 			name = Debug;
 		};
+		D9732ACAF61410F0FCE07AFC63D8635F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51EBA6787643B969A398762931408F35 /* QAXQRCode.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QAXQRCode";
+				IBSC_MODULE = QAXQRCode;
+				INFOPLIST_FILE = "Target Support Files/QAXQRCode/ResourceBundle-QAXQRCode-QAXQRCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = QAXQRCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		F92A3615F8BA135D4A05DF79E29D0CBF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95D47613162ABE15A4CC788D2A1C27F1 /* QAXQRCode.debug.xcconfig */;
+			baseConfigurationReference = 51EBA6787643B969A398762931408F35 /* QAXQRCode.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1060,15 +1055,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36454E87F99EF921B422076447634EC5 /* Build configuration list for PBXNativeTarget "QAXQRCode-QAXQRCode" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				59F1F64E3F5496A58031C931EE8B16E6 /* Debug */,
-				428BB354A22EE878F5ED618E7B3D36ED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		3D7D8DCE11E2D80259AED424F11747BE /* Build configuration list for PBXNativeTarget "Pods-QAXQRCode_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1083,6 +1069,15 @@
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FEECC41CD5E3D4A6DFAF38F1CCDBA64 /* Build configuration list for PBXNativeTarget "QAXQRCode-QAXQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9732ACAF61410F0FCE07AFC63D8635F /* Debug */,
+				88A44C929EEBE6AAFB39BC1B421BC795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
